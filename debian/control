@@ -68,7 +68,7 @@ Description: Common library for KDE PIM - plugins
  This package provides the plugins distributed with the library.
 
 Package: libkf5pimcommon-dev
-Section: libsdevel
+Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkf5pimcommon5 (= ${binary:Version}),
