@@ -1,1 +1,6 @@
-usr/lib/*/libKF5Pimcommon.so
+usr/lib/*/libKF5PimCommon.so
+usr/include/KF5/pimcommon_version.h
+usr/include/KF5/pimcommon/
+usr/include/KF5/PimCommon/
+usr/lib/*/qt5/mkspecs/modules/qt_PimCommon.pri
+usr/lib/*/cmake/KF5PimCommon/

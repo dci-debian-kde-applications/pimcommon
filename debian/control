@@ -39,21 +39,43 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/pimcommon.git
 
 Package: libkf5pimcommon5
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Sieve mail filtering language support for kdepim, library
- This library implements a parser and lexer for Sieve, the mail filtering
- language (RFC 3028).
+Description: Common library for KDE PIM
+ This library provides the common parts used across different KDE PIM
+ components.
  .
- This package is part of the KDE PIM module.
+ This package provides the shared libraries.
+
+Package: libkf5pimcommon-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Common library for KDE PIM - data files
+ This library provides the common parts used across different KDE PIM
+ components.
+ .
+ This package provides the data files used by the library.
+
+Package: libkf5pimcommon-plugins
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Common library for KDE PIM - plugins
+ This library provides the common parts used across different KDE PIM
+ components.
+ .
+ This package provides the plugins distributed with the library.
 
 Package: libkf5pimcommon-dev
 Section: libsdevel
 Architecture: any
+Multi-Arch: same
 Depends: libkf5pimcommon5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Sieve mail filtering language support for kdepim, development files
- This library implements a parser and lexer for Sieve, the mail filtering
- language (RFC 3028).
+Description: Common library for KDE PIM - devel files
+ This library provides the common parts used across different KDE PIM
+ components.
  .
- This package is part of the KDE PIM module.
+ This package provides the development files.

@@ -6,6 +6,9 @@
 </version>
 
 <headers>
+    /usr/include/KF5/pimcommon_version.h
+    /usr/include/KF5/pimcommon/
+    /usr/include/KF5/PimCommon/
 </headers>
 
 <libs>
