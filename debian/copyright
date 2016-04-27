@@ -1,0 +1,127 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: *
+Copyright: 2000-2001, Alex Zepeda <jazepeda@pacbell.net>
+           2001, Hamish Rodda
+           2002-2003, Marc Mutz <mutz@kde.org>
+           2005, Martijn Klingens <klingens@kde.org>
+           2001, Michael Häckel <Michael@Haeckel.Net>
+           2012-2016, Montel Laurent <montel@kde.org>
+License: GPL-2
+
+Files: kioslave/src/common.h
+       src/kmanagesieve/response.cpp
+       src/kmanagesieve/response.h
+       src/kmanagesieve/sasl-common.h
+       src/kmanagesieve/session.cpp
+       src/kmanagesieve/session.h
+       src/kmanagesieve/sessionthread.cpp
+       src/kmanagesieve/sessionthread_p.h
+       src/ksieveui/autocreatescripts/autocreatescriptutil.cpp
+       src/ksieveui/autocreatescripts/autocreatescriptutil_p.h
+       src/ksieveui/autocreatescripts/sieveeditorgraphicalmodewidget.cpp
+       src/ksieveui/autocreatescripts/sieveeditorgraphicalmodewidget.h
+       src/ksieveui/editor/sieveeditor.cpp
+       src/ksieveui/editor/sieveeditor.h
+       src/ksieveui/editor/sieveeditorabstractwidget.cpp
+       src/ksieveui/editor/sieveeditorabstractwidget.h
+       src/ksieveui/editor/sieveeditortextmodewidget.cpp
+       src/ksieveui/editor/sieveeditortextmodewidget.h
+       src/ksieveui/editor/sieveeditorwidget.cpp
+       src/ksieveui/editor/sieveeditorwidget.h
+       src/ksieveui/editor/sievelinenumberarea.cpp
+       src/ksieveui/editor/sievelinenumberarea.h
+       src/ksieveui/editor/sievetextedit.cpp
+       src/ksieveui/editor/sievetextedit.h
+       src/ksieveui/managescriptsjob/checkkolabkep14supportjob.cpp
+       src/ksieveui/managescriptsjob/checkkolabkep14supportjob.h
+       src/ksieveui/tests/sievedebugdialog.cpp
+       src/ksieveui/tests/sievemanagerdialog.cpp
+       src/ksieveui/vacation/autotests/vacationutilstest.cpp
+       src/ksieveui/vacation/autotests/vacationutilstest.h
+Copyright: 2015, Daniel Vrátil <dvratil@kde.org>
+           2008, Jarosław Staniek <staniek@kde.org>
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2011-2016, Montel Laurent <montel@kde.org>
+           2015, Sandro Knauß <knauss@kolabsys.com>
+           2010, Volker Krause <vkrause@kde.org>
+License: LGPL-2+
+
+Files: src/ksieveui/util/util.cpp
+       src/ksieveui/util/util.h
+Copyright: 2005, Till Adam
+License: GPL-2+
+
+Files: cmake/COPYING-CMAKE-SCRIPTS
+       cmake/FindSasl2.cmake
+Copyright: 2006-2007, Laurent Montel <montel@kde.org>
+License: BSD-3-clause
+
+Files: debian/*
+Copyright: 2016, Maximiliano Curia <maxy@debian.org>
+License: LGPL-2+
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 of the license.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public
+ License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
