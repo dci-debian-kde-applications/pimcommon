@@ -1,6 +1,6 @@
-libkf5pimcommon (4:16.04.0-1~2.gbp6d8bb1) UNRELEASED; urgency=medium
+libkf5pimcommon (4:16.04.0-1~3.gbp8c5795) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6d8bb10c7bf60bcd16431cfb798f3ccdce814f5d **
+  ** SNAPSHOT build @8c579554ee70c7742079f725cf4ba2ead93f2393 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @cbaf86e9e443a3ef0469738b91e61ba59e7c0789 **
@@ -9,8 +9,9 @@ libkf5pimcommon (4:16.04.0-1~2.gbp6d8bb1) UNRELEASED; urgency=medium
   * Inject plugins dependency through the symbols file
   * Add missing breaks/replaces
   * Update the acc test
+  * Add dependencies to the dev package that are in the cmake files
 
   [ Automatic packaging ]
   * Update symbols files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 28 Apr 2016 10:37:43 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 28 Apr 2016 13:31:13 +0200
