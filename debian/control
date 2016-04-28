@@ -51,6 +51,8 @@ Package: libkf5pimcommon-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
+Breaks: storageservicemanager (<= 4:16.04)
+Replaces: storageservicemanager (<= 4:16.04)
 Description: Common library for KDE PIM - data files
  This library provides the common parts used across different KDE PIM
  components.
@@ -61,6 +63,8 @@ Package: libkf5pimcommon-plugins
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5libkdepim5 (<= 4:16.04)
+Replaces: libkf5libkdepim5 (<= 4:16.04)
 Description: Common library for KDE PIM - plugins
  This library provides the common parts used across different KDE PIM
  components.
