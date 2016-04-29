@@ -18,6 +18,7 @@
 <gcc_options>
     -fPIC
     -std=c++11
+    -I/usr/lib/@@DEB_HOST_MULTIARCH@@/qt5/mkspecs/common/posix/
 </gcc_options>
 
 </descriptor>
