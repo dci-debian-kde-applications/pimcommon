@@ -12,7 +12,7 @@
 </headers>
 
 <libs>
-    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5Pimcommon.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5PimCommon.so
 </libs>
 
 <gcc_options>
