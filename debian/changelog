@@ -1,6 +1,6 @@
-libkf5pimcommon (4:16.04.0-1~4.gbp58ecdd) UNRELEASED; urgency=medium
+libkf5pimcommon (4:16.04.1-1~1.gbpf834e5) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @58ecdd242fd5720c0a2a0855ff5821a42d050afb **
+  ** SNAPSHOT build @f834e56a07a6e7f0744aa531f7b741b6996b6211 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @cbaf86e9e443a3ef0469738b91e61ba59e7c0789 **
@@ -13,8 +13,9 @@ libkf5pimcommon (4:16.04.0-1~4.gbp58ecdd) UNRELEASED; urgency=medium
   * Update adt testsuite
   * Fix typo in the acc file
   * acc file: add access to qplatformdefs.h
+  * UNRELEASED
 
   [ Automatic packaging ]
   * Update symbols files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 29 Apr 2016 14:42:50 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 22:31:18 +0200
