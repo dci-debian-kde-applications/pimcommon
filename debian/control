@@ -81,6 +81,7 @@ Depends: libkf5akonadi-dev (>= 4:5.2.0~),
          libkf5contacts-dev (>= 5.2.0~),
          libkf5imap-dev (>= 5.2.0~),
          libkf5pimcommon5 (= ${binary:Version}),
+         libkf5pimtextedit-dev (>= 5.2.0~),
          libkf5textwidgets-dev (>= 5.19.0~),
          ${misc:Depends},
          ${shlibs:Depends}
