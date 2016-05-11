@@ -1,6 +1,6 @@
-libkf5pimcommon (4:16.04.1-1~1.gbpf834e5) UNRELEASED; urgency=medium
+libkf5pimcommon (4:16.04.1-1~2.gbp7eea92) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f834e56a07a6e7f0744aa531f7b741b6996b6211 **
+  ** SNAPSHOT build @7eea9210312a665cdb6949a731f7857f471d9633 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @cbaf86e9e443a3ef0469738b91e61ba59e7c0789 **
@@ -14,8 +14,9 @@ libkf5pimcommon (4:16.04.1-1~1.gbpf834e5) UNRELEASED; urgency=medium
   * Fix typo in the acc file
   * acc file: add access to qplatformdefs.h
   * UNRELEASED
+  * Add missing dev dependency (thanks to the acc headers check)
 
   [ Automatic packaging ]
   * Update symbols files
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 22:31:18 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 11 May 2016 17:26:30 +0200
