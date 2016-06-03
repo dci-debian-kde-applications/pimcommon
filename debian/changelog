@@ -1,22 +1,14 @@
-libkf5pimcommon (4:16.04.1-1~2.gbp7eea92) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @7eea9210312a665cdb6949a731f7857f471d9633 **
+libkf5pimcommon (4:16.04.1-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @cbaf86e9e443a3ef0469738b91e61ba59e7c0789 **
-
   * Initial release.
   * Inject plugins dependency through the symbols file
   * Add missing breaks/replaces
   * Update the acc test
   * Add dependencies to the dev package that are in the cmake files
   * Update adt testsuite
-  * Fix typo in the acc file
-  * acc file: add access to qplatformdefs.h
-  * UNRELEASED
-  * Add missing dev dependency (thanks to the acc headers check)
 
   [ Automatic packaging ]
   * Update symbols files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 11 May 2016 17:26:30 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jun 2016 19:09:17 +0200
