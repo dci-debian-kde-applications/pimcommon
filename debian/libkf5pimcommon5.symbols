@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.0 armhf
+# SymbolsHelper-Confirmed: 4:16.04.1 arm64
 libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:16.04
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:16.04
@@ -1250,7 +1250,7 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  (optional=templinst|arch=!armhf)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:16.04
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4:16.04
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEE5QListIT_EPKcRKS3_@Base 4:16.04
- (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:16.04
+ (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:16.04
  _ZNK9PimCommon10AclManager10collectionEv@Base 4:16.04
  _ZNK9PimCommon10AclManager10editActionEv@Base 4:16.04
  _ZNK9PimCommon10AclManager10metaObjectEv@Base 4:16.04
