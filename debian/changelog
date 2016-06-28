@@ -1,10 +1,9 @@
-libkf5pimcommon (4:16.04.2-1~1.gbpb585ca) UNRELEASED; urgency=medium
+libkf5pimcommon (4:16.04.2-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @b585ca265ae5a64ad9e203c727e1c6bf6be1a63a **
-
+  [ Automatic packaging ]
   * Update symbols files with the buildds results
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 16 Jun 2016 04:31:21 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 19:52:25 +0200
 
 libkf5pimcommon (4:16.04.1-1) experimental; urgency=medium
 
