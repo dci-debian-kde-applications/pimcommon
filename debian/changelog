@@ -1,3 +1,11 @@
+libkf5pimcommon (4:16.04.3-1~1.gbp8f846d) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @8f846d101bd5dcad2a7103f31870106284aef1db **
+
+  * Update symbols files from buildds logs (4:16.04.2-2).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 22:31:26 +0200
+
 libkf5pimcommon (4:16.04.2-2) unstable; urgency=medium
 
   * Release to unstable.
