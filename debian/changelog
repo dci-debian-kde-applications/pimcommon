@@ -1,11 +1,13 @@
-libkf5pimcommon (4:16.04.3-1~2.gbp018147) UNRELEASED; urgency=medium
+libkf5pimcommon (4:16.08.0-1~1.gbp670d52) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @018147ddbd49ecac2b7f1f293160599d5407c8bf **
+  ** SNAPSHOT build @670d52de2c00f67486300d2ae11288f27eca53f9 **
 
   * Update symbols files from buildds logs (4:16.04.2-2).
   * Update symbols files.
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 15 Jul 2016 12:16:14 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:31:13 +0200
 
 libkf5pimcommon (4:16.04.2-2) unstable; urgency=medium
 
