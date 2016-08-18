@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.3 amd64 i386
+# SymbolsHelper-Confirmed: 4:16.04.3 amd64 armhf i386
 libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:16.04
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:16.04
