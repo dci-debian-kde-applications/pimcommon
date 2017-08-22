@@ -1,3 +1,9 @@
+libkf5pimcommon (4:17.08.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (17.08.0)
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 22 Aug 2017 21:28:33 +0200
+
 libkf5pimcommon (4:17.08.0-0neon) xenial; urgency=medium
 
   * New release
