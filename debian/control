@@ -7,7 +7,6 @@ Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.23.0~),
                kdesignerplugin (>= 5.23.0~),
-               libkf5kio-dev (>= 5.23.0~),
                libgrantlee5-dev (>= 5.1~),
                libkf5akonadi-dev (>= 4:5.3.1~),
                libkf5akonadicontact-dev (>= 5.3.1~),
@@ -17,6 +16,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5completion-dev (>= 5.23.0~),
                libkf5config-dev (>= 5.23.0~),
                libkf5configwidgets-dev (>= 5.23.0~),
+               libkf5contacteditor-dev (>= 17.04.0~),
                libkf5contacts-dev (>= 5.3.1~),
                libkf5coreaddons-dev (>= 5.23.0~),
                libkf5dbusaddons-dev (>= 5.23.0~),
@@ -26,8 +26,8 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5itemmodels-dev (>= 5.23.0~),
                libkf5itemviews-dev (>= 5.23.0~),
                libkf5jobwidgets-dev (>= 5.23.0~),
-               libkf5contacteditor-dev (>= 17.04.0~),
                libkf5kdelibs4support-dev (>= 5.19.0~),
+               libkf5kio-dev (>= 5.23.0~),
                libkf5libkdepim-dev (>= 5.3.1~),
                libkf5mime-dev (>= 5.3.1~),
                libkf5newstuff-dev (>= 5.23.0~),
@@ -40,17 +40,62 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5windowsystem-dev (>= 5.23.0~),
                libkf5xmlgui-dev (>= 5.23.0~),
                libqt5webchannel5-dev | libqt5webchannel-dev,
-               qtwebengine5-dev | libqt5webengine5-dev,
                libqt5webkit5-dev (>= 5.4.0~),
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.6.0~),
                qtscript5-dev (>= 5.4.0~),
                qttools5-dev (>= 5.4.0~),
-               xsltproc
+               qtwebengine5-dev | libqt5webengine5-dev,
+               xsltproc,
 Standards-Version: 4.1.0
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/pimcommon.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/pimcommon.git
+
+Package: libkf5pimcommon-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Breaks: storageservicemanager (<= 4:16.04), ${kde-l10n:all}
+Replaces: storageservicemanager (<= 4:16.04), ${kde-l10n:all}
+Description: Common library for KDE PIM - data files
+ This library provides the common parts used across different KDE PIM
+ components.
+ .
+ This package provides the data files used by the library.
+
+Package: libkf5pimcommon-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5akonadi-dev (>= 4:5.3.1~),
+         libkf5akonadicontact-dev (>= 5.3.1~),
+         libkf5config-dev (>= 5.23.0~),
+         libkf5contacts-dev (>= 5.3.1~),
+         libkf5imap-dev (>= 5.3.1~),
+         libkf5pimcommon5 (= ${binary:Version}),
+         libkf5pimcommonakonadi5 (= ${binary:Version}),
+         libkf5pimtextedit-dev (>= 5.3.1~),
+         libkf5textwidgets-dev (>= 5.19.0~),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: Common library for KDE PIM - devel files
+ This library provides the common parts used across different KDE PIM
+ components.
+ .
+ This package provides the development files.
+
+Package: libkf5pimcommon-plugins
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5libkdepim5 (<= 4:16.04)
+Replaces: libkf5libkdepim5 (<= 4:16.04)
+Description: Common library for KDE PIM - plugins
+ This library provides the common parts used across different KDE PIM
+ components.
+ .
+ This package provides the plugins distributed with the library.
 
 Package: libkf5pimcommon5
 Architecture: any
@@ -71,48 +116,3 @@ Description: Common library for KDE PIM Akonadi
  components.
  .
  This package provides the shared libraries.
-
-Package: libkf5pimcommon-data
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}
-Breaks: storageservicemanager (<= 4:16.04), ${kde-l10n:all}
-Replaces: storageservicemanager (<= 4:16.04), ${kde-l10n:all}
-Description: Common library for KDE PIM - data files
- This library provides the common parts used across different KDE PIM
- components.
- .
- This package provides the data files used by the library.
-
-Package: libkf5pimcommon-plugins
-Architecture: any
-Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5libkdepim5 (<= 4:16.04)
-Replaces: libkf5libkdepim5 (<= 4:16.04)
-Description: Common library for KDE PIM - plugins
- This library provides the common parts used across different KDE PIM
- components.
- .
- This package provides the plugins distributed with the library.
-
-Package: libkf5pimcommon-dev
-Section: libdevel
-Architecture: any
-Multi-Arch: same
-Depends: libkf5akonadi-dev (>= 4:5.3.1~),
-         libkf5akonadicontact-dev (>= 5.3.1~),
-         libkf5config-dev (>= 5.23.0~),
-         libkf5contacts-dev (>= 5.3.1~),
-         libkf5imap-dev (>= 5.3.1~),
-         libkf5pimcommon5 (= ${binary:Version}),
-         libkf5pimtextedit-dev (>= 5.3.1~),
-         libkf5pimcommonakonadi5 (= ${binary:Version}),
-         libkf5textwidgets-dev (>= 5.19.0~),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Common library for KDE PIM - devel files
- This library provides the common parts used across different KDE PIM
- components.
- .
- This package provides the development files.
