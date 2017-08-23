@@ -56,8 +56,14 @@ Package: libkf5pimcommon-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Breaks: storageservicemanager (<= 4:16.04), ${kde-l10n:all}
-Replaces: storageservicemanager (<= 4:16.04), ${kde-l10n:all}
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        storageservicemanager (<= 4:16.04),
+        ${kde-l10n:all},
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          storageservicemanager (<= 4:16.04),
+          ${kde-l10n:all},
 Description: Common library for KDE PIM - data files
  This library provides the common parts used across different KDE PIM
  components.
