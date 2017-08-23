@@ -1,33 +1,10 @@
-# SymbolsHelper-Confirmed: 4:16.04.3 amd64 armhf i386
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
- (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:16.04
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:16.04
- _ZN9PimCommon10AclManager10setChangedEb@Base 4:16.04
- _ZN9PimCommon10AclManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon10AclManager11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon10AclManager13setCollectionERKN7Akonadi10CollectionE@Base 4:16.04
- _ZN9PimCommon10AclManager16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon10AclManager17collectionChangedERKN7Akonadi10CollectionE@Base 4:16.04
- _ZN9PimCommon10AclManager28collectionCanBeAdministratedEb@Base 4:16.04
- _ZN9PimCommon10AclManager4saveEb@Base 4:16.04
- _ZN9PimCommon10AclManagerC1EP7QObject@Base 4:16.04
- _ZN9PimCommon10AclManagerC2EP7QObject@Base 4:16.04
- _ZN9PimCommon10AclManagerD0Ev@Base 4:16.04
- _ZN9PimCommon10AclManagerD1Ev@Base 4:16.04
- _ZN9PimCommon10AclManagerD2Ev@Base 4:16.04
- _ZN9PimCommon10ActionTypeC1EP7QActionNS0_4TypeE@Base 4:16.04
- _ZN9PimCommon10ActionTypeC2EP7QActionNS0_4TypeE@Base 4:16.04
- _ZN9PimCommon11AclListView10paintEventEP11QPaintEvent@Base 4:16.04
- _ZN9PimCommon11AclListView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon11AclListView11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon11AclListView16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon11AclListView21generalPaletteChangedEv@Base 4:16.04
- _ZN9PimCommon11AclListView32slotCollectionCanBeAdministratedEb@Base 4:16.04
- _ZN9PimCommon11AclListViewC1EP7QWidget@Base 4:16.04
- _ZN9PimCommon11AclListViewC2EP7QWidget@Base 4:16.04
- _ZN9PimCommon11AclListViewD0Ev@Base 4:16.04
- _ZN9PimCommon11AclListViewD1Ev@Base 4:16.04
- _ZN9PimCommon11AclListViewD2Ev@Base 4:16.04
+ _ZN9PimCommon10PluginUtil17isPluginActivatedERK11QStringListS3_bRK7QString@Base 4:17.08.0
+ _ZN9PimCommon10PluginUtil17loadPluginSettingERK7QStringS3_@Base 4:17.08.0
+ _ZN9PimCommon10PluginUtil18savePluginSettingsERK7QStringS3_RK11QStringListS6_@Base 4:17.08.0
+ _ZN9PimCommon10PluginUtil20createPluginMetaDataERK15KPluginMetaData@Base 4:17.08.0
  _ZN9PimCommon11NetworkUtil15setLowBandwidthEb@Base 4:16.04
  _ZN9PimCommon11NetworkUtil4selfEv@Base 4:16.04
  _ZN9PimCommon11NetworkUtilC1Ev@Base 4:16.04
@@ -40,10 +17,6 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon13GenericPluginD0Ev@Base 4:16.04
  _ZN9PimCommon13GenericPluginD1Ev@Base 4:16.04
  _ZN9PimCommon13GenericPluginD2Ev@Base 4:16.04
- _ZN9PimCommon13GenericScriptC1Ev@Base 4:16.04
- _ZN9PimCommon13GenericScriptC2Ev@Base 4:16.04
- _ZN9PimCommon13GenericScriptD1Ev@Base 4:16.04
- _ZN9PimCommon13GenericScriptD2Ev@Base 4:16.04
  _ZN9PimCommon14AutoCorrection10readConfigEv@Base 4:16.04
  _ZN9PimCommon14AutoCorrection11autocorrectEbR13QTextDocumentRi@Base 4:16.04
  _ZN9PimCommon14AutoCorrection11setLanguageERK7QStringb@Base 4:16.04
@@ -59,7 +32,9 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon14AutoCorrection17autoBoldUnderlineEv@Base 4:16.04
  _ZN9PimCommon14AutoCorrection18capitalizeWeekDaysEv@Base 4:16.04
  _ZN9PimCommon14AutoCorrection18selectPreviousWordER11QTextCursori@Base 4:16.04
+ _ZN9PimCommon14AutoCorrection19addNonBreakingSpaceEv@Base 4:17.08.0
  _ZN9PimCommon14AutoCorrection19advancedAutocorrectEv@Base 4:16.04
+ _ZN9PimCommon14AutoCorrection19setNonBreakingSpaceERK5QChar@Base 4:17.08.0
  _ZN9PimCommon14AutoCorrection19superscriptAppendixEv@Base 4:16.04
  _ZN9PimCommon14AutoCorrection20fixTwoUppercaseCharsEv@Base 4:16.04
  _ZN9PimCommon14AutoCorrection20setAutoBoldUnderlineEb@Base 4:16.04
@@ -80,21 +55,12 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon14AutoCorrection27setTwoUpperLetterExceptionsERK4QSetI7QStringE@Base 4:16.04
  _ZN9PimCommon14AutoCorrection28uppercaseFirstCharOfSentenceEv@Base 4:16.04
  _ZN9PimCommon14AutoCorrection31setUppercaseFirstCharOfSentenceEb@Base 4:16.04
+ _ZN9PimCommon14AutoCorrection33selectStringOnMaximumSearchStringER11QTextCursori@Base 4:17.08.0
+ _ZN9PimCommon14AutoCorrection9linkColorEv@Base 4:17.08.0
  _ZN9PimCommon14AutoCorrectionC1Ev@Base 4:16.04
  _ZN9PimCommon14AutoCorrectionC2Ev@Base 4:16.04
  _ZN9PimCommon14AutoCorrectionD1Ev@Base 4:16.04
  _ZN9PimCommon14AutoCorrectionD2Ev@Base 4:16.04
- _ZN9PimCommon14CreateResource11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon14CreateResource11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon14CreateResource14createResourceERK7QStringS3_RK4QMapIS1_8QVariantEb@Base 4:16.04
- _ZN9PimCommon14CreateResource16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon14CreateResource18createResourceInfoERK7QString@Base 4:16.04
- _ZN9PimCommon14CreateResource19createResourceErrorERK7QString@Base 4:16.04
- _ZN9PimCommon14CreateResourceC1Ev@Base 4:16.04
- _ZN9PimCommon14CreateResourceC2Ev@Base 4:16.04
- _ZN9PimCommon14CreateResourceD0Ev@Base 4:16.04
- _ZN9PimCommon14CreateResourceD1Ev@Base 4:16.04
- _ZN9PimCommon14CreateResourceD2Ev@Base 4:16.04
  _ZN9PimCommon14CustomTreeView10paintEventEP11QPaintEvent@Base 4:16.04
  _ZN9PimCommon14CustomTreeView11changeEventEP6QEvent@Base 4:16.04
  _ZN9PimCommon14CustomTreeView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
@@ -109,6 +75,15 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon14CustomTreeViewD0Ev@Base 4:16.04
  _ZN9PimCommon14CustomTreeViewD1Ev@Base 4:16.04
  _ZN9PimCommon14CustomTreeViewD2Ev@Base 4:16.04
+ _ZN9PimCommon14NetworkManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN9PimCommon14NetworkManager11qt_metacastEPKc@Base 4:17.08.0
+ _ZN9PimCommon14NetworkManager16staticMetaObjectE@Base 4:17.08.0
+ _ZN9PimCommon14NetworkManager4selfEv@Base 4:17.08.0
+ _ZN9PimCommon14NetworkManagerC1EP7QObject@Base 4:17.08.0
+ _ZN9PimCommon14NetworkManagerC2EP7QObject@Base 4:17.08.0
+ _ZN9PimCommon14NetworkManagerD0Ev@Base 4:17.08.0
+ _ZN9PimCommon14NetworkManagerD1Ev@Base 4:17.08.0
+ _ZN9PimCommon14NetworkManagerD2Ev@Base 4:17.08.0
  _ZN9PimCommon15MigrateFileInfo10setVersionEi@Base 4:16.04
  _ZN9PimCommon15MigrateFileInfo15setFilePatternsERK11QStringList@Base 4:16.04
  _ZN9PimCommon15MigrateFileInfo7setPathERK7QString@Base 4:16.04
@@ -121,25 +96,6 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon15MinimumComboBox16staticMetaObjectE@Base 4:16.04
  _ZN9PimCommon15MinimumComboBoxC1EP7QWidget@Base 4:16.04
  _ZN9PimCommon15MinimumComboBoxC2EP7QWidget@Base 4:16.04
- _ZN9PimCommon15PluginInterface11actionsTypeEv@Base 4:16.04
- _ZN9PimCommon15PluginInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon15PluginInterface11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon15PluginInterface13setPluginNameERK7QString@Base 4:16.04
- _ZN9PimCommon15PluginInterface13updateActionsEii@Base 4:16.04
- _ZN9PimCommon15PluginInterface15setParentWidgetEP7QWidget@Base 4:16.04
- _ZN9PimCommon15PluginInterface16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon15PluginInterface17initializePluginsEv@Base 4:16.04
- _ZN9PimCommon15PluginInterface18actionXmlExtensionENS_10ActionType4TypeE@Base 4:16.04
- _ZN9PimCommon15PluginInterface18setServiceTypeNameERK7QString@Base 4:16.04
- _ZN9PimCommon15PluginInterface19slotPluginActivatedEPNS_22GenericPluginInterfaceE@Base 4:16.04
- _ZN9PimCommon15PluginInterface21createPluginInterfaceEv@Base 4:16.04
- _ZN9PimCommon15PluginInterface23initializePluginActionsERK7QStringP13KXMLGUIClient@Base 4:16.04
- _ZN9PimCommon15PluginInterface27initializeInterfaceRequiresEPNS_22GenericPluginInterfaceE@Base 4:16.04
- _ZN9PimCommon15PluginInterfaceC1EP17KActionCollectionP7QObject@Base 4:16.04
- _ZN9PimCommon15PluginInterfaceC2EP17KActionCollectionP7QObject@Base 4:16.04
- _ZN9PimCommon15PluginInterfaceD0Ev@Base 4:16.04
- _ZN9PimCommon15PluginInterfaceD1Ev@Base 4:16.04
- _ZN9PimCommon15PluginInterfaceD2Ev@Base 4:16.04
  _ZN9PimCommon15TemplateManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
  _ZN9PimCommon15TemplateManager11qt_metacastEPKc@Base 4:16.04
  _ZN9PimCommon15TemplateManager12loadTemplateERK7QStringS3_@Base 4:16.04
@@ -152,16 +108,21 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon15TemplateManagerD0Ev@Base 4:16.04
  _ZN9PimCommon15TemplateManagerD1Ev@Base 4:16.04
  _ZN9PimCommon15TemplateManagerD2Ev@Base 4:16.04
- _ZN9PimCommon16ImapAclAttribute11deserializeERK10QByteArray@Base 4:16.04
- _ZN9PimCommon16ImapAclAttribute11setMyRightsE6QFlagsIN5KIMAP3Acl5RightEE@Base 4:16.04
- _ZN9PimCommon16ImapAclAttribute9setRightsERK4QMapI10QByteArray6QFlagsIN5KIMAP3Acl5RightEEE@Base 4:16.04
- _ZN9PimCommon16ImapAclAttributeC1ERK4QMapI10QByteArray6QFlagsIN5KIMAP3Acl5RightEEESA_@Base 4:16.04
- _ZN9PimCommon16ImapAclAttributeC1Ev@Base 4:16.04
- _ZN9PimCommon16ImapAclAttributeC2ERK4QMapI10QByteArray6QFlagsIN5KIMAP3Acl5RightEEESA_@Base 4:16.04
- _ZN9PimCommon16ImapAclAttributeC2Ev@Base 4:16.04
- _ZN9PimCommon16ImapAclAttributeD0Ev@Base 4:16.04
- _ZN9PimCommon16ImapAclAttributeD1Ev@Base 4:16.04
- _ZN9PimCommon16ImapAclAttributeD2Ev@Base 4:16.04
+ _ZN9PimCommon16LineEditPassword11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPassword11qt_metacastEPKc@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPassword11setPasswordERK7QString@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPassword16staticMetaObjectE@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPassword23LineEditPasswordPrivate10initializeEv@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPassword23LineEditPasswordPrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPassword23LineEditPasswordPrivate11qt_metacastEPKc@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPassword23LineEditPasswordPrivate14toggleEchoModeEv@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPassword23LineEditPasswordPrivate16staticMetaObjectE@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPassword23LineEditPasswordPrivate24showToggleEchoModeActionERK7QString@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPasswordC1EP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPasswordC2EP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPasswordD0Ev@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPasswordD1Ev@Base 4:17.08.0
+ _ZN9PimCommon16LineEditPasswordD2Ev@Base 4:17.08.0
  _ZN9PimCommon16RenameFileDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
  _ZN9PimCommon16RenameFileDialog11qt_metacastEPKc@Base 4:16.04
  _ZN9PimCommon16RenameFileDialog16staticMetaObjectE@Base 4:16.04
@@ -202,58 +163,6 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon16TranslatorWidgetD0Ev@Base 4:16.04
  _ZN9PimCommon16TranslatorWidgetD1Ev@Base 4:16.04
  _ZN9PimCommon16TranslatorWidgetD2Ev@Base 4:16.04
- _ZN9PimCommon17BoxStorageService10readConfigEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService10serviceUrlEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService11descriptionEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon17BoxStorageService11serviceNameEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService12refreshTokenEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService12removeConfigEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService13fileShareRootERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon17BoxStorageService14fileIdentifierERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon17BoxStorageService14fillListWidgetEPNS_24StorageServiceTreeWidgetERK8QVariantRK7QString@Base 4:16.04
- _ZN9PimCommon17BoxStorageService15itemInformationERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon17BoxStorageService15shutdownServiceEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon17BoxStorageService18needToRefreshTokenEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService19serviceCapabilitiesEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService21slotAuthorizationDoneERK7QStringS3_x@Base 4:16.04
- _ZN9PimCommon17BoxStorageService22storageServiceCopyFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon17BoxStorageService22storageServiceMoveFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon17BoxStorageService23slotAuthorizationFailedERK7QString@Base 4:16.04
- _ZN9PimCommon17BoxStorageService23storageServiceShareLinkERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon17BoxStorageService24storageServiceCopyFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon17BoxStorageService24storageServiceMoveFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon17BoxStorageService24storageServiceRenameFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon17BoxStorageService24storageServicedeleteFileERK7QString@Base 4:16.04
- _ZN9PimCommon17BoxStorageService24storageServicelistFolderERK7QString@Base 4:16.04
- _ZN9PimCommon17BoxStorageService24storageServiceuploadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon17BoxStorageService25storageServiceaccountInfoEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService26storageServiceRenameFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon17BoxStorageService26storageServicecreateFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon17BoxStorageService26storageServicedeleteFolderERK7QString@Base 4:16.04
- _ZN9PimCommon17BoxStorageService26storageServicedownloadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon17BoxStorageService28storageServiceauthenticationEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService33storageServicecreateServiceFolderEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService4nameEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageService8iconNameEv@Base 4:16.04
- _ZN9PimCommon17BoxStorageServiceC1EP7QObject@Base 4:16.04
- _ZN9PimCommon17BoxStorageServiceC2EP7QObject@Base 4:16.04
- _ZN9PimCommon17BoxStorageServiceD0Ev@Base 4:16.04
- _ZN9PimCommon17BoxStorageServiceD1Ev@Base 4:16.04
- _ZN9PimCommon17BoxStorageServiceD2Ev@Base 4:16.04
- _ZN9PimCommon17CollectionAclPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon17CollectionAclPage11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon17CollectionAclPage16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon17CollectionAclPage4initEv@Base 4:16.04
- _ZN9PimCommon17CollectionAclPage4loadERKN7Akonadi10CollectionE@Base 4:16.04
- _ZN9PimCommon17CollectionAclPage4saveERN7Akonadi10CollectionE@Base 4:16.04
- _ZN9PimCommon17CollectionAclPageC1EP7QWidget@Base 4:16.04
- _ZN9PimCommon17CollectionAclPageC2EP7QWidget@Base 4:16.04
- _ZN9PimCommon17CollectionAclPageD0Ev@Base 4:16.04
- _ZN9PimCommon17CollectionAclPageD1Ev@Base 4:16.04
- _ZN9PimCommon17CollectionAclPageD2Ev@Base 4:16.04
  _ZN9PimCommon17CustomToolsPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
  _ZN9PimCommon17CustomToolsPlugin11qt_metacastEPKc@Base 4:16.04
  _ZN9PimCommon17CustomToolsPlugin16staticMetaObjectE@Base 4:16.04
@@ -324,78 +233,36 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon19CustomToolsWidgetNgD0Ev@Base 4:16.04
  _ZN9PimCommon19CustomToolsWidgetNgD1Ev@Base 4:16.04
  _ZN9PimCommon19CustomToolsWidgetNgD2Ev@Base 4:16.04
- _ZN9PimCommon19GenericScriptAction11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon19GenericScriptAction11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon19GenericScriptAction14activateActionEPS0_@Base 4:16.04
- _ZN9PimCommon19GenericScriptAction16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon19GenericScriptAction18slotActivateActionEv@Base 4:16.04
- _ZN9PimCommon19GenericScriptAction4execEv@Base 4:16.04
- _ZN9PimCommon19GenericScriptActionC1ERK11QJsonObjectP17KActionCollectionP7QObject@Base 4:16.04
- _ZN9PimCommon19GenericScriptActionC2ERK11QJsonObjectP17KActionCollectionP7QObject@Base 4:16.04
- _ZN9PimCommon19GenericScriptActionD0Ev@Base 4:16.04
- _ZN9PimCommon19GenericScriptActionD1Ev@Base 4:16.04
- _ZN9PimCommon19GenericScriptActionD2Ev@Base 4:16.04
- _ZN9PimCommon19HubicStorageService10readConfigEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService10serviceUrlEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService11descriptionEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon19HubicStorageService11serviceNameEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService12refreshTokenEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService12removeConfigEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService13fileShareRootERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon19HubicStorageService14fileIdentifierERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon19HubicStorageService14fillListWidgetEPNS_24StorageServiceTreeWidgetERK8QVariantRK7QString@Base 4:16.04
- _ZN9PimCommon19HubicStorageService15itemInformationERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon19HubicStorageService15shutdownServiceEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon19HubicStorageService18needToRefreshTokenEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService19serviceCapabilitiesEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService21slotAuthorizationDoneERK7QStringS3_x@Base 4:16.04
- _ZN9PimCommon19HubicStorageService22storageServiceCopyFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon19HubicStorageService22storageServiceMoveFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon19HubicStorageService23slotAuthorizationFailedERK7QString@Base 4:16.04
- _ZN9PimCommon19HubicStorageService23storageServiceShareLinkERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon19HubicStorageService24storageServiceCopyFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon19HubicStorageService24storageServiceMoveFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon19HubicStorageService24storageServiceRenameFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon19HubicStorageService24storageServicedeleteFileERK7QString@Base 4:16.04
- _ZN9PimCommon19HubicStorageService24storageServicelistFolderERK7QString@Base 4:16.04
- _ZN9PimCommon19HubicStorageService24storageServiceuploadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon19HubicStorageService25storageServiceaccountInfoEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService26storageServiceRenameFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon19HubicStorageService26storageServicecreateFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon19HubicStorageService26storageServicedeleteFolderERK7QString@Base 4:16.04
- _ZN9PimCommon19HubicStorageService26storageServicedownloadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon19HubicStorageService28storageServiceauthenticationEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService33storageServicecreateServiceFolderEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService4nameEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageService8iconNameEv@Base 4:16.04
- _ZN9PimCommon19HubicStorageServiceC1EP7QObject@Base 4:16.04
- _ZN9PimCommon19HubicStorageServiceC2EP7QObject@Base 4:16.04
- _ZN9PimCommon19HubicStorageServiceD0Ev@Base 4:16.04
- _ZN9PimCommon19HubicStorageServiceD1Ev@Base 4:16.04
- _ZN9PimCommon19HubicStorageServiceD2Ev@Base 4:16.04
- _ZN9PimCommon19StorageServiceMenus11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon19StorageServiceMenus11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon19StorageServiceMenus16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon19StorageServiceMenusC1EP7QObject@Base 4:16.04
- _ZN9PimCommon19StorageServiceMenusC2EP7QObject@Base 4:16.04
- _ZN9PimCommon19StorageServiceMenusD0Ev@Base 4:16.04
- _ZN9PimCommon19StorageServiceMenusD1Ev@Base 4:16.04
- _ZN9PimCommon19StorageServiceMenusD2Ev@Base 4:16.04
- _ZN9PimCommon20AnnotationEditDialog10readConfigEv@Base 4:16.04
- _ZN9PimCommon20AnnotationEditDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon20AnnotationEditDialog11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon20AnnotationEditDialog11writeConfigEv@Base 4:16.04
- _ZN9PimCommon20AnnotationEditDialog12slotAcceptedEv@Base 4:16.04
- _ZN9PimCommon20AnnotationEditDialog14slotDeleteNoteEv@Base 4:16.04
- _ZN9PimCommon20AnnotationEditDialog16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon20AnnotationEditDialogC1ERKN7Akonadi4ItemEP7QWidget@Base 4:16.04
- _ZN9PimCommon20AnnotationEditDialogC2ERKN7Akonadi4ItemEP7QWidget@Base 4:16.04
- _ZN9PimCommon20AnnotationEditDialogD0Ev@Base 4:16.04
- _ZN9PimCommon20AnnotationEditDialogD1Ev@Base 4:16.04
- _ZN9PimCommon20AnnotationEditDialogD2Ev@Base 4:16.04
+ _ZN9PimCommon19LogActivitiesDialog10logClearedEv@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialog10readConfigEv@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialog11qt_metacastEPKc@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialog11writeConfigEv@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialog16staticMetaObjectE@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialog17slotLogEntryAddedERK7QString@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialog19slotLogEntryClearedEv@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialog23slotEnableLogActivitiesEb@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialog6setLogERK7QString@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialog8slotSaveEv@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialog9slotClearEv@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialogC1EP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialogC2EP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialogD0Ev@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialogD1Ev@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesDialogD2Ev@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesWidget11addLogEntryERK7QString@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesWidget11qt_metacastEPKc@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesWidget11textChangedEb@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesWidget15slotTextChangedEv@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesWidget16staticMetaObjectE@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesWidget5clearEv@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesWidget6setLogERK7QString@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesWidgetC1EP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesWidgetC2EP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesWidgetD0Ev@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesWidgetD1Ev@Base 4:17.08.0
+ _ZN9PimCommon19LogActivitiesWidgetD2Ev@Base 4:17.08.0
  _ZN9PimCommon20AutoCorrectionWidget10loadConfigEv@Base 4:16.04
  _ZN9PimCommon20AutoCorrectionWidget11emitChangedEv@Base 4:16.04
  _ZN9PimCommon20AutoCorrectionWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
@@ -445,114 +312,55 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon20GenericPluginManager16staticMetaObjectE@Base 4:16.04
  _ZN9PimCommon20GenericPluginManager17initializePluginsEv@Base 4:16.04
  _ZN9PimCommon20GenericPluginManager18setServiceTypeNameERK7QString@Base 4:16.04
+ _ZN9PimCommon20GenericPluginManager20pluginFromIdentifierERK7QString@Base 4:17.08.0
  _ZN9PimCommon20GenericPluginManager4selfEv@Base 4:16.04
  _ZN9PimCommon20GenericPluginManagerC1EP7QObject@Base 4:16.04
  _ZN9PimCommon20GenericPluginManagerC2EP7QObject@Base 4:16.04
  _ZN9PimCommon20GenericPluginManagerD0Ev@Base 4:16.04
  _ZN9PimCommon20GenericPluginManagerD1Ev@Base 4:16.04
  _ZN9PimCommon20GenericPluginManagerD2Ev@Base 4:16.04
- _ZN9PimCommon20StorageServicePlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon20StorageServicePlugin11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon20StorageServicePlugin16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon20StorageServicePluginC1EP7QObject@Base 4:16.04
- _ZN9PimCommon20StorageServicePluginC2EP7QObject@Base 4:16.04
- _ZN9PimCommon20StorageServicePluginD0Ev@Base 4:16.04
- _ZN9PimCommon20StorageServicePluginD1Ev@Base 4:16.04
- _ZN9PimCommon20StorageServicePluginD2Ev@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService10readConfigEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService10serviceUrlEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService11descriptionEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService11serviceNameEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService12removeConfigEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService13fileShareRootERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService14fileIdentifierERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService14fillListWidgetEPNS_24StorageServiceTreeWidgetERK8QVariantRK7QString@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService15itemInformationERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService15needInitializedEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService15shutdownServiceEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService18connectDefaultSlotEPNS_9WebDavJobE@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService19serviceCapabilitiesEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService21slotAuthorizationDoneERK7QStringS3_S3_S3_@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService22storageServiceCopyFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService22storageServiceMoveFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService23slotAuthorizationFailedERK7QString@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService23storageServiceShareLinkERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService24storageServiceCopyFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService24storageServiceMoveFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService24storageServiceRenameFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService24storageServicedeleteFileERK7QString@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService24storageServicelistFolderERK7QString@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService24storageServiceuploadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService25storageServiceaccountInfoEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService26slotAuthorizationCancelledEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService26storageServiceRenameFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService26storageServicecreateFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService26storageServicedeleteFolderERK7QString@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService26storageServicedownloadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService28storageServiceauthenticationEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService33storageServicecreateServiceFolderEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService4nameEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageService8iconNameEv@Base 4:16.04
- _ZN9PimCommon20WebDavStorageServiceC1EP7QObject@Base 4:16.04
- _ZN9PimCommon20WebDavStorageServiceC2EP7QObject@Base 4:16.04
- _ZN9PimCommon20WebDavStorageServiceD0Ev@Base 4:16.04
- _ZN9PimCommon20WebDavStorageServiceD1Ev@Base 4:16.04
- _ZN9PimCommon20WebDavStorageServiceD2Ev@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService10readConfigEv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService10serviceUrlEv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService11descriptionEv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService11serviceNameEv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService12removeConfigEv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService13fileShareRootERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService14fileIdentifierERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService14fillListWidgetEPNS_24StorageServiceTreeWidgetERK8QVariantRK7QString@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService15itemInformationERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService15shutdownServiceEv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService19serviceCapabilitiesEv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService21checkNeedAuthenticateEv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService21slotAuthorizationDoneERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService22storageServiceCopyFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService22storageServiceMoveFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService23slotAuthorizationFailedERK7QString@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService23storageServiceShareLinkERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService24storageServiceCopyFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService24storageServiceMoveFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService24storageServiceRenameFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService24storageServicedeleteFileERK7QString@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService24storageServicelistFolderERK7QString@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService24storageServiceuploadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService25storageServiceaccountInfoEv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService26storageServiceRenameFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService26storageServicecreateFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService26storageServicedeleteFolderERK7QString@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService26storageServicedownloadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService28storageServiceauthenticationEv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService33storageServicecreateServiceFolderEv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService4nameEv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageService8iconNameEv@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageServiceC1EP7QObject@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageServiceC2EP7QObject@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageServiceD0Ev@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageServiceD1Ev@Base 4:16.04
- _ZN9PimCommon21DropBoxStorageServiceD2Ev@Base 4:16.04
- _ZN9PimCommon21GenericScriptsManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon21GenericScriptsManager11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon21GenericScriptsManager13setScriptPathERK7QString@Base 4:16.04
- _ZN9PimCommon21GenericScriptsManager16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon21GenericScriptsManager17initializeScriptsEv@Base 4:16.04
- _ZN9PimCommon21GenericScriptsManager19setActionCollectionEP17KActionCollection@Base 4:16.04
- _ZN9PimCommon21GenericScriptsManager4selfEv@Base 4:16.04
- _ZN9PimCommon21GenericScriptsManagerC1EP7QObject@Base 4:16.04
- _ZN9PimCommon21GenericScriptsManagerC2EP7QObject@Base 4:16.04
- _ZN9PimCommon21GenericScriptsManagerD0Ev@Base 4:16.04
- _ZN9PimCommon21GenericScriptsManagerD1Ev@Base 4:16.04
- _ZN9PimCommon21GenericScriptsManagerD2Ev@Base 4:16.04
+ _ZN9PimCommon20LogActivitiesManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManager11qt_metacastEPKc@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManager13logEntryAddedERK7QString@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManager15logEntryClearedEv@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManager16staticMetaObjectE@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManager22setEnableLogActivitiesEb@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManager23showLogActivitiesDialogEv@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManager4selfEv@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManager5clearEv@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManager9appendLogERK7QString@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManagerC1EP7QObject@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManagerC2EP7QObject@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManagerD0Ev@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManagerD1Ev@Base 4:17.08.0
+ _ZN9PimCommon20LogActivitiesManagerD2Ev@Base 4:17.08.0
+ _ZN9PimCommon21AbstractGenericPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN9PimCommon21AbstractGenericPlugin11qt_metacastEPKc@Base 4:17.08.0
+ _ZN9PimCommon21AbstractGenericPlugin12setIsEnabledEb@Base 4:17.08.0
+ _ZN9PimCommon21AbstractGenericPlugin16staticMetaObjectE@Base 4:17.08.0
+ _ZN9PimCommon21AbstractGenericPlugin19showConfigureDialogEP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon21AbstractGenericPluginC1EP7QObject@Base 4:17.08.0
+ _ZN9PimCommon21AbstractGenericPluginC2EP7QObject@Base 4:17.08.0
+ _ZN9PimCommon21AbstractGenericPluginD0Ev@Base 4:17.08.0
+ _ZN9PimCommon21AbstractGenericPluginD1Ev@Base 4:17.08.0
+ _ZN9PimCommon21AbstractGenericPluginD2Ev@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialog10initLayoutEv@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialog10readConfigEv@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialog10saveConfigEv@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialog11qt_metacastEPKc@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialog12slotAcceptedEv@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialog15slotHelpClickedEv@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialog16staticMetaObjectE@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialog25slotRestoreDefaultClickedEv@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialog4helpEv@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialog5resetEv@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialog8showHelpERK7QStringS3_@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialogC1EP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialogC2EP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialogD0Ev@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialogD1Ev@Base 4:17.08.0
+ _ZN9PimCommon21ConfigurePluginDialogD2Ev@Base 4:17.08.0
  _ZN9PimCommon21KActionMenuChangeCase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
  _ZN9PimCommon21KActionMenuChangeCase11qt_metacastEPKc@Base 4:16.04
  _ZN9PimCommon21KActionMenuChangeCase11reverseCaseEv@Base 4:16.04
@@ -582,69 +390,31 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon21PimCommonSettingsBaseD0Ev@Base 4:16.04
  _ZN9PimCommon21PimCommonSettingsBaseD1Ev@Base 4:16.04
  _ZN9PimCommon21PimCommonSettingsBaseD2Ev@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager10readConfigEv@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager10serviceUrlENS0_11ServiceTypeE@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager11descriptionENS0_11ServiceTypeE@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager11kconfigNameEv@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager11serviceNameENS0_11ServiceTypeE@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager11writeConfigEv@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager12actionFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager12capabilitiesENS0_11ServiceTypeE@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager13configChangedERK7QString@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager13removeServiceERK7QString@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager13serviceToI18nENS0_11ServiceTypeE@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager13shareLinkDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager13slotShareFileEv@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager14defaultConnectEPNS_22StorageServiceAbstractE@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager14deleteFileDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager14setListServiceERK4QMapI7QStringPNS_22StorageServiceAbstractEE@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager14slotDeleteFileEv@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager14uploadFileDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager15accountInfoDoneERK7QStringRKNS_11AccountInfoE@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager15servicesChangedEv@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager15slotAccountInfoEv@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager15uploadFileStartEPNS_22StorageServiceAbstractE@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager16deleteFolderDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager16slotDeleteFolderEv@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager16slotDownloadFileEv@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager16uploadFileFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager17slotConfigChangedERK7QString@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager18authenticationDoneERK7QString@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager20authenticationFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager22setDefaultUploadFolderERK7QString@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager26uploadDownloadFileProgressERK7QStringxx@Base 4:16.04
- _ZN9PimCommon21StorageServiceManager4iconENS0_11ServiceTypeE@Base 4:16.04
- _ZN9PimCommon21StorageServiceManagerC1EP7QObject@Base 4:16.04
- _ZN9PimCommon21StorageServiceManagerC2EP7QObject@Base 4:16.04
- _ZN9PimCommon21StorageServiceManagerD0Ev@Base 4:16.04
- _ZN9PimCommon21StorageServiceManagerD1Ev@Base 4:16.04
- _ZN9PimCommon21StorageServiceManagerD2Ev@Base 4:16.04
  _ZN9PimCommon22AutoCorrectionLanguage11setLanguageERK7QString@Base 4:16.04
  _ZN9PimCommon22AutoCorrectionLanguageC1EP7QWidget@Base 4:16.04
  _ZN9PimCommon22AutoCorrectionLanguageC2EP7QWidget@Base 4:16.04
  _ZN9PimCommon22AutoCorrectionLanguageD0Ev@Base 4:16.04
  _ZN9PimCommon22AutoCorrectionLanguageD1Ev@Base 4:16.04
  _ZN9PimCommon22AutoCorrectionLanguageD2Ev@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterface11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterface13setActionTypeERKNS_10ActionTypeE@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterface13updateActionsEii@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterface14setCollectionsERK7QVectorIN7Akonadi10CollectionEE@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterface15setCurrentItemsERK7QVectorIN7Akonadi4ItemEE@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterface15setParentWidgetEP7QWidget@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterface16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterface19emitPluginActivatedEPS0_@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterface19showConfigureDialogEP7QWidget@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterface20setCurrentCollectionERKN7Akonadi10CollectionE@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterface8setItemsERK7QVectorIN7Akonadi4ItemEE@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterfaceC1EP7QObject@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterfaceC2EP7QObject@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterfaceD0Ev@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterfaceD1Ev@Base 4:16.04
- _ZN9PimCommon22GenericPluginInterfaceD2Ev@Base 4:16.04
+ _ZN9PimCommon22ConfigurePluginsWidget10initLayoutEPNS_26ConfigurePluginsListWidgetE@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidget10initializeEv@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidget10readConfigEv@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidget11qt_metacastEPKc@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidget11writeConfigEv@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidget16staticMetaObjectE@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidget22doResetToDefaultsOtherEv@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidget24doLoadFromGlobalSettingsEv@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidget4saveEv@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidget7changedEv@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidget8defaultsEv@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidgetC1EP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidgetC1EPNS_26ConfigurePluginsListWidgetEP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidgetC2EP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidgetC2EPNS_26ConfigurePluginsListWidgetEP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidgetD0Ev@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidgetD1Ev@Base 4:17.08.0
+ _ZN9PimCommon22ConfigurePluginsWidgetD2Ev@Base 4:17.08.0
  _ZN9PimCommon22KPimPrintPreviewDialog10readConfigEv@Base 4:16.04
  _ZN9PimCommon22KPimPrintPreviewDialog11writeConfigEv@Base 4:16.04
  _ZN9PimCommon22KPimPrintPreviewDialogC1EP7QWidget@Base 4:16.04
@@ -702,104 +472,6 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon22SimpleStringListEditorD0Ev@Base 4:16.04
  _ZN9PimCommon22SimpleStringListEditorD1Ev@Base 4:16.04
  _ZN9PimCommon22SimpleStringListEditorD2Ev@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract10copyFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract10deleteFileERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract10inProgressEb@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract10listFolderERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract10moveFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract10renameFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract10uploadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract11accountInfoEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract12actionFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract12copyFileDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract12createFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract12deleteFolderERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract12downloadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract12moveFileDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract12renameFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract13shareLinkDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract14authenticationEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract14copyFolderDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract14deleteFileDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract14listFolderDoneERK7QStringRK8QVariant@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract14moveFolderDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract14renameFileDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract14slotNextActionEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract14uploadFileDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract15accountInfoDoneERK7QStringRKNS_11AccountInfoE@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract16cancelUploadFileEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract16createFolderDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract16deleteFolderDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract16downLoadFileDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract16renameFolderDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract16slotActionFailedERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract16slotCopyFileDoneERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract16slotMoveFileDoneERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract16uploadFileFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract17clearIsInProgressEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract17executeNextActionEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract17slotShareLinkDoneERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract18authenticationDoneERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract18cancelDownloadFileEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract18downLoadFileFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract18slotCopyFolderDoneERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract18slotDeleteFileDoneERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract18slotListFolderDoneERK8QVariant@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract18slotMoveFolderDoneERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract18slotRenameFileDoneERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract18slotUploadFileDoneERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract19createServiceFolderEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract19slotAccountInfoDoneERKNS_11AccountInfoE@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract20authenticationFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract20slotCreateFolderDoneERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract20slotDeleteFolderDoneERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract20slotDownLoadFileDoneERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract20slotRenameFolderDoneERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract20slotUploadFileFailedERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract22slotDownLoadFileFailedERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract23authenticationCancelledERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract24cancelUploadDownloadFileEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract24emitAuthentificationDoneEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract26emitAuthentificationFailedERK7QString@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract26uploadDownloadFileProgressERK7QStringxx@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract29emitAuthentificationCancelledEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract30slotuploadDownloadFileProgressExx@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract6logoutEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract8copyFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract8moveFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstract9shareLinkERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstractC1EP7QObject@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstractC2EP7QObject@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstractD0Ev@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstractD1Ev@Base 4:16.04
- _ZN9PimCommon22StorageServiceAbstractD2Ev@Base 4:16.04
- _ZN9PimCommon22StorageServiceSettings11closeWalletEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceSettings11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon22StorageServiceSettings11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon22StorageServiceSettings16slotWalletClosedEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceSettings16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon22StorageServiceSettings19createDefaultFolderEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceSettings4selfEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceSettings6walletEv@Base 4:16.04
- _ZN9PimCommon22StorageServiceSettingsC1EP7QObject@Base 4:16.04
- _ZN9PimCommon22StorageServiceSettingsC2EP7QObject@Base 4:16.04
- _ZN9PimCommon22StorageServiceSettingsD0Ev@Base 4:16.04
- _ZN9PimCommon22StorageServiceSettingsD1Ev@Base 4:16.04
- _ZN9PimCommon22StorageServiceSettingsD2Ev@Base 4:16.04
- _ZN9PimCommon23CheckedCollectionWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon23CheckedCollectionWidget11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon23CheckedCollectionWidget15collectionAddedERKN7Akonadi10CollectionES4_@Base 4:16.04
- _ZN9PimCommon23CheckedCollectionWidget16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon23CheckedCollectionWidget17collectionRemovedERKN7Akonadi10CollectionE@Base 4:16.04
- _ZN9PimCommon23CheckedCollectionWidget23slotSetCollectionFilterERK7QString@Base 4:16.04
- _ZN9PimCommon23CheckedCollectionWidgetC1ERK7QStringP7QWidget@Base 4:16.04
- _ZN9PimCommon23CheckedCollectionWidgetC2ERK7QStringP7QWidget@Base 4:16.04
- _ZN9PimCommon23CheckedCollectionWidgetD0Ev@Base 4:16.04
- _ZN9PimCommon23CheckedCollectionWidgetD1Ev@Base 4:16.04
- _ZN9PimCommon23CheckedCollectionWidgetD2Ev@Base 4:16.04
  _ZN9PimCommon23MigrateApplicationFiles10setVersionEi@Base 4:16.04
  _ZN9PimCommon23MigrateApplicationFiles11migrateDoneEv@Base 4:16.04
  _ZN9PimCommon23MigrateApplicationFiles11migrateFileERKNS_15MigrateFileInfoE@Base 4:16.04
@@ -822,81 +494,6 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon23MigrateApplicationFilesD0Ev@Base 4:16.04
  _ZN9PimCommon23MigrateApplicationFilesD1Ev@Base 4:16.04
  _ZN9PimCommon23MigrateApplicationFilesD2Ev@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface10copyFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface10deleteFileERK7QString@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface10listFolderERK7QString@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface10moveFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface10renameFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface10uploadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface11accountInfoEv@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface12createFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface12deleteFolderERK7QString@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface12downloadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface12removeConfigEv@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface12renameFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface14authenticationEv@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface19createServiceFolderEv@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface8copyFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface8moveFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterface9shareLinkERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterfaceC1EP7QObject@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterfaceC2EP7QObject@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterfaceD0Ev@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterfaceD1Ev@Base 4:16.04
- _ZN9PimCommon23StorageServiceInterfaceD2Ev@Base 4:16.04
- _ZN9PimCommon23StorageServiceJobConfig11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon23StorageServiceJobConfig11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon23StorageServiceJobConfig16registerConfigIfEPNS_12ISettingsJobE@Base 4:16.04
- _ZN9PimCommon23StorageServiceJobConfig16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon23StorageServiceJobConfig4selfEv@Base 4:16.04
- _ZN9PimCommon23StorageServiceJobConfigC1EP7QObject@Base 4:16.04
- _ZN9PimCommon23StorageServiceJobConfigC2EP7QObject@Base 4:16.04
- _ZN9PimCommon23StorageServiceJobConfigD0Ev@Base 4:16.04
- _ZN9PimCommon23StorageServiceJobConfigD1Ev@Base 4:16.04
- _ZN9PimCommon23StorageServiceJobConfigD2Ev@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService10readConfigEv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService10serviceUrlEv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService11descriptionEv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService11serviceNameEv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService12removeConfigEv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService13fileShareRootERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService14fileIdentifierERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService14fillListWidgetEPNS_24StorageServiceTreeWidgetERK8QVariantRK7QString@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService15itemInformationERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService15shutdownServiceEv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService16needAuthenticateEv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService19serviceCapabilitiesEv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService21slotAuthorizationDoneERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService22storageServiceCopyFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService22storageServiceMoveFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService23slotAuthorizationFailedERK7QString@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService23storageServiceShareLinkERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService24storageServiceCopyFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService24storageServiceMoveFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService24storageServiceRenameFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService24storageServicedeleteFileERK7QString@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService24storageServicelistFolderERK7QString@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService24storageServiceuploadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService25storageServiceaccountInfoEv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService26storageServiceRenameFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService26storageServicecreateFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService26storageServicedeleteFolderERK7QString@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService26storageServicedownloadFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService28storageServiceauthenticationEv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService33storageServicecreateServiceFolderEv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService4nameEv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageService8iconNameEv@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageServiceC1EP7QObject@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageServiceC2EP7QObject@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageServiceD0Ev@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageServiceD1Ev@Base 4:16.04
- _ZN9PimCommon23YouSendItStorageServiceD2Ev@Base 4:16.04
  _ZN9PimCommon24CustomToolsPluginManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
  _ZN9PimCommon24CustomToolsPluginManager11qt_metacastEPKc@Base 4:16.04
  _ZN9PimCommon24CustomToolsPluginManager16staticMetaObjectE@Base 4:16.04
@@ -932,31 +529,29 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon24GenericGrantleeFormatterD0Ev@Base 4:16.04
  _ZN9PimCommon24GenericGrantleeFormatterD1Ev@Base 4:16.04
  _ZN9PimCommon24GenericGrantleeFormatterD2Ev@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget10goToFolderERK7QStringb@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget10slotMoveUpEv@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget11refreshListEv@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget12changeFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget14createUpActionEP5QMenu@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget14slotPropertiesEv@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget15setParentFolderERK7QString@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget15slotContextMenuERK6QPoint@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget16createMoveUpItemEv@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget16setCurrentFolderERK7QString@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget17createMenuActionsEP5QMenu@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget17fileDoubleClickedEv@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget18slotListFolderDoneERK7QStringRK8QVariant@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget21slotItemDoubleClickedEP15QTreeWidgetItemi@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget22createPropertiesActionEP5QMenu@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget7addFileERK7QStringS3_S3_@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidget9addFolderERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidgetC1EPNS_22StorageServiceAbstractEP7QWidget@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidgetC2EPNS_22StorageServiceAbstractEP7QWidget@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidgetD0Ev@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidgetD1Ev@Base 4:16.04
- _ZN9PimCommon24StorageServiceTreeWidgetD2Ev@Base 4:16.04
+ _ZN9PimCommon26ConfigurePluginsListWidget10initializeEv@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget11changeStateERK5QListIPNS0_10PluginItemEE@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget11qt_metacastEPKc@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget11savePluginsERK7QStringS3_RK5QListIPNS0_10PluginItemEE@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget12fillTopItemsERK7QVectorINS_14PluginUtilDataEERK7QStringS8_S8_R5QListIPNS0_10PluginItemEES8_@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget15slotItemChangedEP15QTreeWidgetItemi@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget16configureClickedERK7QStringS3_@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget16staticMetaObjectE@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget18descriptionChangedERK7QString@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget19resetToUserSettingsERK5QListIPNS0_10PluginItemEE@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget20slotConfigureClickedEP7QAction@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget22doResetToDefaultsOtherEv@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget24doLoadFromGlobalSettingsEv@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget24slotItemSelectionChangedEv@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget4saveEv@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget7changedEv@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidget8defaultsEv@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidgetC1EP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidgetC2EP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidgetD0Ev@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidgetD1Ev@Base 4:17.08.0
+ _ZN9PimCommon26ConfigurePluginsListWidgetD2Ev@Base 4:17.08.0
  _ZN9PimCommon26LineEditWithAutoCorrection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
  _ZN9PimCommon26LineEditWithAutoCorrection11qt_metacastEPKc@Base 4:16.04
  _ZN9PimCommon26LineEditWithAutoCorrection13keyPressEventEP9QKeyEvent@Base 4:16.04
@@ -968,154 +563,11 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon26LineEditWithAutoCorrectionD0Ev@Base 4:16.04
  _ZN9PimCommon26LineEditWithAutoCorrectionD1Ev@Base 4:16.04
  _ZN9PimCommon26LineEditWithAutoCorrectionD2Ev@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog10deleteFileEPNS_28StorageServiceTreeWidgetItemE@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog10readConfigEv@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog10slotDeleteEv@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog11writeConfigEv@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog12deleteFolderEPNS_28StorageServiceTreeWidgetItemE@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog14deleteFileDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog15slotRefreshListEv@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog16deleteFolderDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog16slotActionFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog16slotUpdatePixmapERK7QPixmap@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog17slotItemActivatedEP15QTreeWidgetItemi@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog18slotDeleteFileDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog18slotListFolderDoneERK7QStringRK8QVariant@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog20slotDeleteFolderDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialog21slotItemDoubleClickedEP15QTreeWidgetItemi@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialogC1ENS0_10DeleteTypeEPNS_22StorageServiceAbstractEP7QWidget@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialogC2ENS0_10DeleteTypeEPNS_22StorageServiceAbstractEP7QWidget@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialogD0Ev@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialogD1Ev@Base 4:16.04
- _ZN9PimCommon26StorageServiceDeleteDialogD2Ev@Base 4:16.04
- _ZN9PimCommon27SelectMultiCollectionDialog10initializeERK7QStringRK5QListIxE@Base 4:16.04
- _ZN9PimCommon27SelectMultiCollectionDialog10readConfigEv@Base 4:16.04
- _ZN9PimCommon27SelectMultiCollectionDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon27SelectMultiCollectionDialog11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon27SelectMultiCollectionDialog11writeConfigEv@Base 4:16.04
- _ZN9PimCommon27SelectMultiCollectionDialog16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon27SelectMultiCollectionDialogC1ERK7QStringP7QWidget@Base 4:16.04
- _ZN9PimCommon27SelectMultiCollectionDialogC1ERK7QStringRK5QListIxEP7QWidget@Base 4:16.04
- _ZN9PimCommon27SelectMultiCollectionDialogC2ERK7QStringP7QWidget@Base 4:16.04
- _ZN9PimCommon27SelectMultiCollectionDialogC2ERK7QStringRK5QListIxEP7QWidget@Base 4:16.04
- _ZN9PimCommon27SelectMultiCollectionDialogD0Ev@Base 4:16.04
- _ZN9PimCommon27SelectMultiCollectionDialogD1Ev@Base 4:16.04
- _ZN9PimCommon27SelectMultiCollectionDialogD2Ev@Base 4:16.04
  _ZN9PimCommon27SieveSyntaxHighlighterRules15addCapabilitiesERK11QStringList@Base 4:16.04
  _ZN9PimCommon27SieveSyntaxHighlighterRulesC1Ev@Base 4:16.04
  _ZN9PimCommon27SieveSyntaxHighlighterRulesC2Ev@Base 4:16.04
  _ZN9PimCommon27SieveSyntaxHighlighterRulesD1Ev@Base 4:16.04
  _ZN9PimCommon27SieveSyntaxHighlighterRulesD2Ev@Base 4:16.04
- _ZN9PimCommon27StorageServicePluginManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon27StorageServicePluginManager11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon27StorageServicePluginManager16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon27StorageServicePluginManager4selfEv@Base 4:16.04
- _ZN9PimCommon27StorageServicePluginManagerC1EP7QObject@Base 4:16.04
- _ZN9PimCommon27StorageServicePluginManagerC2EP7QObject@Base 4:16.04
- _ZN9PimCommon27StorageServicePluginManagerD0Ev@Base 4:16.04
- _ZN9PimCommon27StorageServicePluginManagerD1Ev@Base 4:16.04
- _ZN9PimCommon27StorageServicePluginManagerD2Ev@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirs10addTempDirERK7QString@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirs11addTempFileERK7QString@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirs11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirs11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirs15removeTempFilesEv@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirs16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirs19forceCleanTempFilesEv@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirs19slotRemoveTempFilesEv@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirs21setDelayRemoveAllInMsEi@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirsC1EP7QObject@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirsC2EP7QObject@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirsD0Ev@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirsD1Ev@Base 4:16.04
- _ZN9PimCommon28AttachmentTemporaryFilesDirsD2Ev@Base 4:16.04
- _ZN9PimCommon28FetchRecursiveCollectionsJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon28FetchRecursiveCollectionsJob11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon28FetchRecursiveCollectionsJob16setTopCollectionERKN7Akonadi10CollectionE@Base 4:16.04
- _ZN9PimCommon28FetchRecursiveCollectionsJob16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon28FetchRecursiveCollectionsJob21fetchCollectionFailedEv@Base 4:16.04
- _ZN9PimCommon28FetchRecursiveCollectionsJob23fetchCollectionFinishedERK7QVectorIN7Akonadi10CollectionEE@Base 4:16.04
- _ZN9PimCommon28FetchRecursiveCollectionsJob33slotInitialCollectionFetchingDoneEP4KJob@Base 4:16.04
- _ZN9PimCommon28FetchRecursiveCollectionsJob5startEv@Base 4:16.04
- _ZN9PimCommon28FetchRecursiveCollectionsJobC1EP7QObject@Base 4:16.04
- _ZN9PimCommon28FetchRecursiveCollectionsJobC2EP7QObject@Base 4:16.04
- _ZN9PimCommon28FetchRecursiveCollectionsJobD0Ev@Base 4:16.04
- _ZN9PimCommon28FetchRecursiveCollectionsJobD1Ev@Base 4:16.04
- _ZN9PimCommon28FetchRecursiveCollectionsJobD2Ev@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog10closeEventEP11QCloseEvent@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog10readConfigEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog11writeConfigEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog12downloadItemEPNS_28StorageServiceTreeWidgetItemE@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog14reenableDialogEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog16slotActionFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog16slotDownfileDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog16slotDownloadFileEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog16slotUpdatePixmapERK7QPixmap@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog17slotItemActivatedEP15QTreeWidgetItemi@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog18slotDownfileFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog18slotListFolderDoneERK7QStringRK8QVariant@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog21slotItemDoubleClickedEP15QTreeWidgetItemi@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog22setDefaultDownloadPathERK7QString@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialog30slotUploadDownloadFileProgressERK7QStringxx@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialogC1EPNS_22StorageServiceAbstractEP7QWidget@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialogC2EPNS_22StorageServiceAbstractEP7QWidget@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialogD0Ev@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialogD1Ev@Base 4:16.04
- _ZN9PimCommon28StorageServiceDownloadDialogD2Ev@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidget10setServiceEPNS_22StorageServiceAbstractE@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidget11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidget14slotCancelTaskEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidget16setBusyIndicatorEb@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidget16setProgressValueExx@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidget16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidget18setProgressBarTypeENS0_15ProgressBarTypeE@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidget5resetEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidget9hideEventEP10QHideEvent@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidgetC1EPNS_22StorageServiceAbstractEP7QWidget@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidgetC2EPNS_22StorageServiceAbstractEP7QWidget@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidgetD0Ev@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidgetD1Ev@Base 4:16.04
- _ZN9PimCommon28StorageServiceProgressWidgetD2Ev@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget10createItemERK7QStringS3_NS_21StorageServiceManager11ServiceTypeERK5QIcon@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget10modifyItemEP15QListWidgetItem@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget13updateButtonsEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget14serviceRemovedERK7QString@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget14setListServiceERK4QMapI7QStringPNS_22StorageServiceAbstractEERK5QListINS3_10CapabilityEE@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget14slotAddServiceEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget15setDefaultLabelEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget16slotAuthenticateEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget17defaultConnectionEPNS_22StorageServiceAbstractE@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget17slotModifyServiceEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget17slotRemoveServiceEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget19slotServiceSelectedEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget21slotUpdateAccountInfoERK7QStringRKNS_11AccountInfoE@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget22slotAuthenticationDoneERK7QString@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget24slotAuthenticationFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget24slotServiceDoubleClickedEP15QListWidgetItem@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget27slotAuthenticationCancelledERK7QString@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget27slotUpdateAccountInfoFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidget7changedEv@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidgetC1EP7QWidget@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidgetC2EP7QWidget@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidgetD0Ev@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidgetD1Ev@Base 4:16.04
- _ZN9PimCommon28StorageServiceSettingsWidgetD2Ev@Base 4:16.04
- _ZN9PimCommon28StorageServiceTreeWidgetItem12setStoreInfoERK4QMapI7QString8QVariantE@Base 4:16.04
- _ZN9PimCommon28StorageServiceTreeWidgetItem14setDateCreatedERK9QDateTime@Base 4:16.04
- _ZN9PimCommon28StorageServiceTreeWidgetItem19setLastModificationERK9QDateTime@Base 4:16.04
- _ZN9PimCommon28StorageServiceTreeWidgetItem7setSizeEy@Base 4:16.04
- _ZN9PimCommon28StorageServiceTreeWidgetItemC1EPNS_24StorageServiceTreeWidgetE@Base 4:16.04
- _ZN9PimCommon28StorageServiceTreeWidgetItemC2EPNS_24StorageServiceTreeWidgetE@Base 4:16.04
  _ZN9PimCommon29ConfigureImmutableWidgetUtils10loadWidgetEP13KUrlRequesterPKN19KCoreConfigSkeleton10ItemStringE@Base 4:16.04
  _ZN9PimCommon29ConfigureImmutableWidgetUtils10loadWidgetEP8QSpinBoxPKN19KCoreConfigSkeleton7ItemIntE@Base 4:16.04
  _ZN9PimCommon29ConfigureImmutableWidgetUtils10loadWidgetEP8QSpinBoxPKN19KCoreConfigSkeleton8ItemUIntE@Base 4:16.04
@@ -1136,63 +588,18 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon29ConfigureImmutableWidgetUtils16saveUrlRequesterEP13KUrlRequesterPN19KCoreConfigSkeleton10ItemStringE@Base 4:16.04
  _ZN9PimCommon29ConfigureImmutableWidgetUtils19populateButtonGroupEP9QGroupBoxP12QButtonGroupiPKN19KCoreConfigSkeleton8ItemEnumE@Base 4:16.04
  _ZN9PimCommon29ConfigureImmutableWidgetUtils26saveSimpleStringListEditorEPNS_22SimpleStringListEditorEPN19KCoreConfigSkeleton14ItemStringListE@Base 4:16.04
- _ZN9PimCommon29StorageServiceCheckNameDialog10setOldNameERK7QString@Base 4:16.04
- _ZN9PimCommon29StorageServiceCheckNameDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon29StorageServiceCheckNameDialog11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon29StorageServiceCheckNameDialog15slotNameChangedERK7QString@Base 4:16.04
- _ZN9PimCommon29StorageServiceCheckNameDialog16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon29StorageServiceCheckNameDialog20setDisallowedSymbolsERK7QRegExp@Base 4:16.04
- _ZN9PimCommon29StorageServiceCheckNameDialog23setDisallowedSymbolsStrERK7QString@Base 4:16.04
- _ZN9PimCommon29StorageServiceCheckNameDialogC1EP7QWidget@Base 4:16.04
- _ZN9PimCommon29StorageServiceCheckNameDialogC2EP7QWidget@Base 4:16.04
- _ZN9PimCommon29StorageServiceCheckNameDialogD0Ev@Base 4:16.04
- _ZN9PimCommon29StorageServiceCheckNameDialogD1Ev@Base 4:16.04
- _ZN9PimCommon29StorageServiceCheckNameDialogD2Ev@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialog10readConfigEv@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialog11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialog11writeConfigEv@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialog12loadSettingsEv@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialog13writeSettingsEv@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialog14addExtraWidgetEP7QWidget@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialog14serviceRemovedERK7QString@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialog14setListServiceERK4QMapI7QStringPNS_22StorageServiceAbstractEE@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialog16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialogC1EP7QWidget@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialogC2EP7QWidget@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialogD0Ev@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialogD1Ev@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureDialogD2Ev@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureWidget11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureWidget12loadSettingsEv@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureWidget13writeSettingsEv@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureWidget14serviceRemovedERK7QString@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureWidget16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureWidget7changedEv@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureWidgetC1EP7QWidget@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureWidgetC2EP7QWidget@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureWidgetD0Ev@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureWidgetD1Ev@Base 4:16.04
- _ZN9PimCommon29StorageServiceConfigureWidgetD2Ev@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManager11addProgressEPNS_22StorageServiceAbstractENS0_12ProgressTypeE@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManager11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManager16slotActionFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManager16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManager17progressTypeValueEv@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManager18slotUploadFileDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManager20slotDownloadFileDoneERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManager20slotUploadFileFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManager22slotDownloadFileFailedERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManager24slotDownloadFileProgressERK7QStringxx@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManager24slotProgressItemCanceledEPN4KPIM12ProgressItemE@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManager4selfEv@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManagerC1EP7QObject@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManagerC2EP7QObject@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManagerD0Ev@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManagerD1Ev@Base 4:16.04
- _ZN9PimCommon29StorageServiceProgressManagerD2Ev@Base 4:16.04
+ _ZN9PimCommon30AbstractGenericPluginInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN9PimCommon30AbstractGenericPluginInterface11qt_metacastEPKc@Base 4:17.08.0
+ _ZN9PimCommon30AbstractGenericPluginInterface15setParentWidgetEP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon30AbstractGenericPluginInterface16staticMetaObjectE@Base 4:17.08.0
+ _ZN9PimCommon30AbstractGenericPluginInterface19emitPluginActivatedEPS0_@Base 4:17.08.0
+ _ZN9PimCommon30AbstractGenericPluginInterface19showConfigureDialogEP7QWidget@Base 4:17.08.0
+ _ZN9PimCommon30AbstractGenericPluginInterface9setPluginEPNS_21AbstractGenericPluginE@Base 4:17.08.0
+ _ZN9PimCommon30AbstractGenericPluginInterfaceC1EP7QObject@Base 4:17.08.0
+ _ZN9PimCommon30AbstractGenericPluginInterfaceC2EP7QObject@Base 4:17.08.0
+ _ZN9PimCommon30AbstractGenericPluginInterfaceD0Ev@Base 4:17.08.0
+ _ZN9PimCommon30AbstractGenericPluginInterfaceD1Ev@Base 4:17.08.0
+ _ZN9PimCommon30AbstractGenericPluginInterfaceD2Ev@Base 4:17.08.0
  _ZN9PimCommon30RichTextEditWithAutoCorrection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
  _ZN9PimCommon30RichTextEditWithAutoCorrection11qt_metacastEPKc@Base 4:16.04
  _ZN9PimCommon30RichTextEditWithAutoCorrection13keyPressEventEP9QKeyEvent@Base 4:16.04
@@ -1204,66 +611,18 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon30RichTextEditWithAutoCorrectionD0Ev@Base 4:16.04
  _ZN9PimCommon30RichTextEditWithAutoCorrectionD1Ev@Base 4:16.04
  _ZN9PimCommon30RichTextEditWithAutoCorrectionD2Ev@Base 4:16.04
- _ZN9PimCommon31ImapResourceCapabilitiesManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon31ImapResourceCapabilitiesManager11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon31ImapResourceCapabilitiesManager16slotCapabilitiesEP23QDBusPendingCallWatcher@Base 4:16.04
- _ZN9PimCommon31ImapResourceCapabilitiesManager16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon31ImapResourceCapabilitiesManager17slotInstanceAddedERKN7Akonadi13AgentInstanceE@Base 4:16.04
- _ZN9PimCommon31ImapResourceCapabilitiesManager18searchCapabilitiesERK7QString@Base 4:16.04
- _ZN9PimCommon31ImapResourceCapabilitiesManager19slotInstanceRemovedERKN7Akonadi13AgentInstanceE@Base 4:16.04
- _ZN9PimCommon31ImapResourceCapabilitiesManager4initEv@Base 4:16.04
- _ZN9PimCommon31ImapResourceCapabilitiesManagerC1EP7QObject@Base 4:16.04
- _ZN9PimCommon31ImapResourceCapabilitiesManagerC2EP7QObject@Base 4:16.04
- _ZN9PimCommon31ImapResourceCapabilitiesManagerD0Ev@Base 4:16.04
- _ZN9PimCommon31ImapResourceCapabilitiesManagerD1Ev@Base 4:16.04
- _ZN9PimCommon31ImapResourceCapabilitiesManagerD2Ev@Base 4:16.04
- _ZN9PimCommon31ManageServerSideSubscriptionJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon31ManageServerSideSubscriptionJob11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon31ManageServerSideSubscriptionJob15setParentWidgetEP7QWidget@Base 4:16.04
- _ZN9PimCommon31ManageServerSideSubscriptionJob16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon31ManageServerSideSubscriptionJob20setCurrentCollectionERKN7Akonadi10CollectionE@Base 4:16.04
- _ZN9PimCommon31ManageServerSideSubscriptionJob33slotConfigureSubscriptionFinishedEP23QDBusPendingCallWatcher@Base 4:16.04
- _ZN9PimCommon31ManageServerSideSubscriptionJob5startEv@Base 4:16.04
- _ZN9PimCommon31ManageServerSideSubscriptionJobC1EP7QObject@Base 4:16.04
- _ZN9PimCommon31ManageServerSideSubscriptionJobC2EP7QObject@Base 4:16.04
- _ZN9PimCommon31ManageServerSideSubscriptionJobD0Ev@Base 4:16.04
- _ZN9PimCommon31ManageServerSideSubscriptionJobD1Ev@Base 4:16.04
- _ZN9PimCommon31ManageServerSideSubscriptionJobD2Ev@Base 4:16.04
- _ZN9PimCommon31StorageServiceProgressIndicator11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04
- _ZN9PimCommon31StorageServiceProgressIndicator11qt_metacastEPKc@Base 4:16.04
- _ZN9PimCommon31StorageServiceProgressIndicator12updatePixmapERK7QPixmap@Base 4:16.04
- _ZN9PimCommon31StorageServiceProgressIndicator13slotTimerDoneEv@Base 4:16.04
- _ZN9PimCommon31StorageServiceProgressIndicator13stopAnimationEv@Base 4:16.04
- _ZN9PimCommon31StorageServiceProgressIndicator14startAnimationEv@Base 4:16.04
- _ZN9PimCommon31StorageServiceProgressIndicator16staticMetaObjectE@Base 4:16.04
- _ZN9PimCommon31StorageServiceProgressIndicatorC1EP7QObject@Base 4:16.04
- _ZN9PimCommon31StorageServiceProgressIndicatorC2EP7QObject@Base 4:16.04
- _ZN9PimCommon31StorageServiceProgressIndicatorD0Ev@Base 4:16.04
- _ZN9PimCommon31StorageServiceProgressIndicatorD1Ev@Base 4:16.04
- _ZN9PimCommon31StorageServiceProgressIndicatorD2Ev@Base 4:16.04
+ _ZN9PimCommon4Util10invokeHelpERK7QStringS3_@Base 4:17.08.0
  _ZN9PimCommon4Util10loadToFileERK7QStringP7QWidgetRK4QUrlS3_@Base 4:16.04
  _ZN9PimCommon4Util10saveTextAsERK7QStringS3_P7QWidgetRK4QUrlS3_@Base 4:16.04
  _ZN9PimCommon4Util10saveToFileERK7QStringS3_@Base 4:16.04
- _ZN9PimCommon4Util12isImapFolderERKN7Akonadi10CollectionERb@Base 4:16.04
  _ZN9PimCommon4Util14isImapResourceERK7QString@Base 4:16.04
+ _ZN9PimCommon4Util17generateEmailListERK11QStringList@Base 4:17.08.0
  _ZN9PimCommon4Util27createImapSettingsInterfaceERK7QString@Base 4:16.04
  (optional=templinst|arch=)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:16.04
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4:16.04
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEE5QListIT_EPKcRKS3_@Base 4:16.04
- (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:16.04
- _ZNK9PimCommon10AclManager10collectionEv@Base 4:16.04
- _ZNK9PimCommon10AclManager10editActionEv@Base 4:16.04
- _ZNK9PimCommon10AclManager10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon10AclManager12deleteActionEv@Base 4:16.04
- _ZNK9PimCommon10AclManager14selectionModelEv@Base 4:16.04
- _ZNK9PimCommon10AclManager5modelEv@Base 4:16.04
- _ZNK9PimCommon10AclManager9addActionEv@Base 4:16.04
- _ZNK9PimCommon10ActionType4typeEv@Base 4:16.04
- _ZNK9PimCommon10ActionType6actionEv@Base 4:16.04
- _ZNK9PimCommon11AclListView10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon11NetworkUtil12lowBandwidthEv@Base 4:16.04
  _ZNK9PimCommon13GenericPlugin10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon13GenericScript6engineEv@Base 4:16.04
  _ZNK9PimCommon14AutoCorrection13autoDetectURLERK7QString@Base 4:16.04
  _ZNK9PimCommon14AutoCorrection13isSuperScriptEv@Base 4:16.04
  _ZNK9PimCommon14AutoCorrection14isSingleSpacesEv@Base 4:16.04
@@ -1288,9 +647,10 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZNK9PimCommon14AutoCorrection30typographicDefaultDoubleQuotesEv@Base 4:16.04
  _ZNK9PimCommon14AutoCorrection30typographicDefaultSingleQuotesEv@Base 4:16.04
  _ZNK9PimCommon14AutoCorrection8languageEv@Base 4:16.04
- _ZNK9PimCommon14CreateResource10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon14CustomTreeView10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon14CustomTreeView15showDefaultTextEv@Base 4:16.04
+ _ZNK9PimCommon14NetworkManager10metaObjectEv@Base 4:17.08.0
+ _ZNK9PimCommon14NetworkManager23networkConfigureManagerEv@Base 4:17.08.0
  _ZNK9PimCommon15MigrateFileInfo12filePatternsEv@Base 4:16.04
  _ZNK9PimCommon15MigrateFileInfo4pathEv@Base 4:16.04
  _ZNK9PimCommon15MigrateFileInfo4typeEv@Base 4:16.04
@@ -1299,27 +659,15 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZNK9PimCommon15MigrateFileInfo7versionEv@Base 4:16.04
  _ZNK9PimCommon15MinimumComboBox10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon15MinimumComboBox15minimumSizeHintEv@Base 4:16.04
- _ZNK9PimCommon15PluginInterface10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon15TemplateManager10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon16ImapAclAttribute10serializedEv@Base 4:16.04
- _ZNK9PimCommon16ImapAclAttribute4typeEv@Base 4:16.04
- _ZNK9PimCommon16ImapAclAttribute5cloneEv@Base 4:16.04
- _ZNK9PimCommon16ImapAclAttribute6rightsEv@Base 4:16.04
- _ZNK9PimCommon16ImapAclAttribute8myRightsEv@Base 4:16.04
- _ZNK9PimCommon16ImapAclAttribute9oldRightsEv@Base 4:16.04
- _ZNK9PimCommon16ImapAclAttributeeqERKS0_@Base 4:16.04
+ _ZNK9PimCommon16LineEditPassword10metaObjectEv@Base 4:17.08.0
+ _ZNK9PimCommon16LineEditPassword16passwordLineEditEv@Base 4:17.08.0
+ _ZNK9PimCommon16LineEditPassword20toggleEchoModeActionEv@Base 4:17.08.0
+ _ZNK9PimCommon16LineEditPassword23LineEditPasswordPrivate10metaObjectEv@Base 4:17.08.0
+ _ZNK9PimCommon16LineEditPassword8passwordEv@Base 4:17.08.0
  _ZNK9PimCommon16RenameFileDialog10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon16RenameFileDialog7newNameEv@Base 4:16.04
  _ZNK9PimCommon16TranslatorWidget10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon17BoxStorageService10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon17BoxStorageService12capabilitiesEv@Base 4:16.04
- _ZNK9PimCommon17BoxStorageService16hasValidSettingsEv@Base 4:16.04
- _ZNK9PimCommon17BoxStorageService17disallowedSymbolsEv@Base 4:16.04
- _ZNK9PimCommon17BoxStorageService18storageServiceNameEv@Base 4:16.04
- _ZNK9PimCommon17BoxStorageService20disallowedSymbolsStrEv@Base 4:16.04
- _ZNK9PimCommon17BoxStorageService4iconEv@Base 4:16.04
- _ZNK9PimCommon17CollectionAclPage10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon17CollectionAclPage9canHandleERKN7Akonadi10CollectionE@Base 4:16.04
  _ZNK9PimCommon17CustomToolsPlugin10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon17PimCommonSettings10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon18SpellCheckLineEdit10metaObjectEv@Base 4:16.04
@@ -1331,64 +679,35 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZNK9PimCommon18TranslatorTextEdit10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon19CustomToolsWidgetNg10actionListEv@Base 4:16.04
  _ZNK9PimCommon19CustomToolsWidgetNg10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon19GenericScriptAction10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon19HubicStorageService10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon19HubicStorageService12capabilitiesEv@Base 4:16.04
- _ZNK9PimCommon19HubicStorageService16hasValidSettingsEv@Base 4:16.04
- _ZNK9PimCommon19HubicStorageService18storageServiceNameEv@Base 4:16.04
- _ZNK9PimCommon19HubicStorageService4iconEv@Base 4:16.04
- _ZNK9PimCommon19StorageServiceMenus10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon19StorageServiceMenus14uploadServicesEP7QWidget@Base 4:16.04
- _ZNK9PimCommon19StorageServiceMenus16downloadServicesEP7QWidget@Base 4:16.04
- _ZNK9PimCommon19StorageServiceMenus17shareLinkServicesEP7QWidget@Base 4:16.04
- _ZNK9PimCommon20AnnotationEditDialog10metaObjectEv@Base 4:16.04
+ _ZNK9PimCommon19LogActivitiesDialog10metaObjectEv@Base 4:17.08.0
+ _ZNK9PimCommon19LogActivitiesWidget10metaObjectEv@Base 4:17.08.0
+ _ZNK9PimCommon19LogActivitiesWidget3logEv@Base 4:17.08.0
  _ZNK9PimCommon20AutoCorrectionWidget10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon20GenericPluginManager10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon20GenericPluginManager10pluginNameEv@Base 4:16.04
  _ZNK9PimCommon20GenericPluginManager11pluginsListEv@Base 4:16.04
+ _ZNK9PimCommon20GenericPluginManager15configGroupNameEv@Base 4:17.08.0
+ _ZNK9PimCommon20GenericPluginManager15pluginsDataListEv@Base 4:17.08.0
  _ZNK9PimCommon20GenericPluginManager15serviceTypeNameEv@Base 4:16.04
- _ZNK9PimCommon20StorageServicePlugin10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon20StorageServicePlugin17disallowedSymbolsEv@Base 4:16.04
- _ZNK9PimCommon20StorageServicePlugin20disallowedSymbolsStrEv@Base 4:16.04
- _ZNK9PimCommon20StorageServicePlugin21maximumUploadFileSizeEv@Base 4:16.04
- _ZNK9PimCommon20StorageServicePlugin4iconEv@Base 4:16.04
- _ZNK9PimCommon20WebDavStorageService10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon20WebDavStorageService12capabilitiesEv@Base 4:16.04
- _ZNK9PimCommon20WebDavStorageService16hasValidSettingsEv@Base 4:16.04
- _ZNK9PimCommon20WebDavStorageService18storageServiceNameEv@Base 4:16.04
- _ZNK9PimCommon20WebDavStorageService4iconEv@Base 4:16.04
- _ZNK9PimCommon21DropBoxStorageService10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon21DropBoxStorageService12capabilitiesEv@Base 4:16.04
- _ZNK9PimCommon21DropBoxStorageService16hasValidSettingsEv@Base 4:16.04
- _ZNK9PimCommon21DropBoxStorageService17disallowedSymbolsEv@Base 4:16.04
- _ZNK9PimCommon21DropBoxStorageService18storageServiceNameEv@Base 4:16.04
- _ZNK9PimCommon21DropBoxStorageService20disallowedSymbolsStrEv@Base 4:16.04
- _ZNK9PimCommon21DropBoxStorageService21maximumUploadFileSizeEv@Base 4:16.04
- _ZNK9PimCommon21DropBoxStorageService4iconEv@Base 4:16.04
- _ZNK9PimCommon21GenericScriptsManager10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon21GenericScriptsManager17listScriptActionsEv@Base 4:16.04
+ _ZNK9PimCommon20GenericPluginManager22configPrefixSettingKeyEv@Base 4:17.08.0
+ _ZNK9PimCommon20LogActivitiesManager10metaObjectEv@Base 4:17.08.0
+ _ZNK9PimCommon20LogActivitiesManager19enableLogActivitiesEv@Base 4:17.08.0
+ _ZNK9PimCommon20LogActivitiesManager3logEv@Base 4:17.08.0
+ _ZNK9PimCommon21AbstractGenericPlugin10metaObjectEv@Base 4:17.08.0
+ _ZNK9PimCommon21AbstractGenericPlugin17hasToolBarSupportEv@Base 4:17.08.0
+ _ZNK9PimCommon21AbstractGenericPlugin18hasConfigureDialogEv@Base 4:17.08.0
+ _ZNK9PimCommon21AbstractGenericPlugin19hasPopupMenuSupportEv@Base 4:17.08.0
+ _ZNK9PimCommon21AbstractGenericPlugin9isEnabledEv@Base 4:17.08.0
+ _ZNK9PimCommon21ConfigurePluginDialog10metaObjectEv@Base 4:17.08.0
+ _ZNK9PimCommon21ConfigurePluginDialog9buttonBoxEv@Base 4:17.08.0
  _ZNK9PimCommon21KActionMenuChangeCase10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon21KActionMenuChangeCase15lowerCaseActionEv@Base 4:16.04
  _ZNK9PimCommon21KActionMenuChangeCase15upperCaseActionEv@Base 4:16.04
  _ZNK9PimCommon21KActionMenuChangeCase17reverseCaseActionEv@Base 4:16.04
  _ZNK9PimCommon21KActionMenuChangeCase18sentenceCaseActionEv@Base 4:16.04
  _ZNK9PimCommon21LineEditWithCompleter10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon21StorageServiceManager10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon21StorageServiceManager11listServiceEv@Base 4:16.04
- _ZNK9PimCommon21StorageServiceManager13ourIdentifierEv@Base 4:16.04
- _ZNK9PimCommon21StorageServiceManager18menuUploadServicesEP7QWidget@Base 4:16.04
- _ZNK9PimCommon21StorageServiceManager18menuWithCapabilityENS_22StorageServiceAbstract10CapabilityERK5QListIS2_EP7QWidget@Base 4:16.04
- _ZNK9PimCommon21StorageServiceManager19defaultUploadFolderEv@Base 4:16.04
- _ZNK9PimCommon21StorageServiceManager20menuDownloadServicesEP7QWidget@Base 4:16.04
- _ZNK9PimCommon21StorageServiceManager21menuShareLinkServicesEP7QWidget@Base 4:16.04
  _ZNK9PimCommon22AutoCorrectionLanguage8languageEv@Base 4:16.04
- _ZNK9PimCommon22GenericPluginInterface10actionTypeEv@Base 4:16.04
- _ZNK9PimCommon22GenericPluginInterface10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon22GenericPluginInterface12parentWidgetEv@Base 4:16.04
- _ZNK9PimCommon22GenericPluginInterface17hasToolBarSupportEv@Base 4:16.04
- _ZNK9PimCommon22GenericPluginInterface18hasConfigureDialogEv@Base 4:16.04
- _ZNK9PimCommon22GenericPluginInterface19hasPopupMenuSupportEv@Base 4:16.04
- _ZNK9PimCommon22GenericPluginInterface8requiresEv@Base 4:16.04
+ _ZNK9PimCommon22ConfigurePluginsWidget10metaObjectEv@Base 4:17.08.0
  _ZNK9PimCommon22ShareServiceUrlManager10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon22ShareServiceUrlManager4menuEv@Base 4:16.04
  _ZNK9PimCommon22SieveSyntaxHighlighter10metaObjectEv@Base 4:16.04
@@ -1396,44 +715,11 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZNK9PimCommon22SimpleStringListEditor10stringListEv@Base 4:16.04
  _ZNK9PimCommon22SimpleStringListEditor13selectedItemsEv@Base 4:16.04
  _ZNK9PimCommon22SimpleStringListEditor8sizeHintEv@Base 4:16.04
- _ZNK9PimCommon22StorageServiceAbstract10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon22StorageServiceAbstract12isInProgressEv@Base 4:16.04
- _ZNK9PimCommon22StorageServiceAbstract16hasCancelSupportEv@Base 4:16.04
- _ZNK9PimCommon22StorageServiceAbstract17disallowedSymbolsEv@Base 4:16.04
- _ZNK9PimCommon22StorageServiceAbstract20disallowedSymbolsStrEv@Base 4:16.04
- _ZNK9PimCommon22StorageServiceAbstract21maximumUploadFileSizeEv@Base 4:16.04
- _ZNK9PimCommon22StorageServiceAbstract29hasUploadOrDownloadInProgressEv@Base 4:16.04
- _ZNK9PimCommon22StorageServiceSettings10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon23CheckedCollectionWidget10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon23CheckedCollectionWidget14checkableProxyEv@Base 4:16.04
- _ZNK9PimCommon23CheckedCollectionWidget14folderTreeViewEv@Base 4:16.04
- _ZNK9PimCommon23CheckedCollectionWidget14selectionModelEv@Base 4:16.04
- _ZNK9PimCommon23CheckedCollectionWidget15entityTreeModelEv@Base 4:16.04
  _ZNK9PimCommon23MigrateApplicationFiles10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon23MigrateApplicationFiles14configFileNameEv@Base 4:16.04
  _ZNK9PimCommon23MigrateApplicationFiles15applicationNameEv@Base 4:16.04
  _ZNK9PimCommon23MigrateApplicationFiles20currentConfigVersionEv@Base 4:16.04
  _ZNK9PimCommon23MigrateApplicationFiles7versionEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceInterface10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig10hubicScopeEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig11boxClientIdEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig13hubicClientIdEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig14gdriveClientIdEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig15boxClientSecretEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig15dropboxRootPathEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig15youSendItApiKeyEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig17hubicClientSecretEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig17oauth2RedirectUrlEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig18gdriveClientSecretEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig19defaultUploadFolderEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig21dropboxOauthSignatureEv@Base 4:16.04
- _ZNK9PimCommon23StorageServiceJobConfig23dropboxOauthConsumerKeyEv@Base 4:16.04
- _ZNK9PimCommon23YouSendItStorageService10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon23YouSendItStorageService12capabilitiesEv@Base 4:16.04
- _ZNK9PimCommon23YouSendItStorageService16hasValidSettingsEv@Base 4:16.04
- _ZNK9PimCommon23YouSendItStorageService18storageServiceNameEv@Base 4:16.04
- _ZNK9PimCommon23YouSendItStorageService4iconEv@Base 4:16.04
  _ZNK9PimCommon24CustomToolsPluginManager10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon24CustomToolsPluginManager11pluginsListEv@Base 4:16.04
  _ZNK9PimCommon24CustomToolsViewInterface10metaObjectEv@Base 4:16.04
@@ -1441,254 +727,136 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZNK9PimCommon24GenericGrantleeFormatter10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon24GenericGrantleeFormatter12errorMessageEv@Base 4:16.04
  _ZNK9PimCommon24GenericGrantleeFormatter6renderERK5QHashI7QString8QVariantE@Base 4:16.04
- _ZNK9PimCommon24StorageServiceTreeWidget10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon24StorageServiceTreeWidget12parentFolderEv@Base 4:16.04
- _ZNK9PimCommon24StorageServiceTreeWidget13currentFolderEv@Base 4:16.04
- _ZNK9PimCommon24StorageServiceTreeWidget14itemIdentifierEP15QTreeWidgetItem@Base 4:16.04
- _ZNK9PimCommon24StorageServiceTreeWidget16itemTypeSelectedEv@Base 4:16.04
- _ZNK9PimCommon24StorageServiceTreeWidget22itemIdentifierSelectedEv@Base 4:16.04
- _ZNK9PimCommon24StorageServiceTreeWidget23itemInformationSelectedEv@Base 4:16.04
- _ZNK9PimCommon24StorageServiceTreeWidget4typeEP15QTreeWidgetItem@Base 4:16.04
+ _ZNK9PimCommon26ConfigurePluginsListWidget10metaObjectEv@Base 4:17.08.0
  _ZNK9PimCommon26LineEditWithAutoCorrection10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon26LineEditWithAutoCorrection14autocorrectionEv@Base 4:16.04
  _ZNK9PimCommon26SieveSyntaxHighlighterUtil16fullCapabilitiesEv@Base 4:16.04
- _ZNK9PimCommon26StorageServiceDeleteDialog10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon27SelectMultiCollectionDialog10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon27SelectMultiCollectionDialog18selectedCollectionEv@Base 4:16.04
  _ZNK9PimCommon27SieveSyntaxHighlighterRules5rulesEv@Base 4:16.04
- _ZNK9PimCommon27StorageServicePluginManager10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon27StorageServicePluginManager11pluginsListEv@Base 4:16.04
- _ZNK9PimCommon28AttachmentTemporaryFilesDirs10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon28AttachmentTemporaryFilesDirs13temporaryDirsEv@Base 4:16.04
- _ZNK9PimCommon28AttachmentTemporaryFilesDirs14temporaryFilesEv@Base 4:16.04
- _ZNK9PimCommon28FetchRecursiveCollectionsJob10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon28StorageServiceDownloadDialog10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon28StorageServiceProgressWidget10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon28StorageServiceSettingsWidget10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon28StorageServiceSettingsWidget11listServiceEv@Base 4:16.04
- _ZNK9PimCommon28StorageServiceTreeWidgetItem10createDateEv@Base 4:16.04
- _ZNK9PimCommon28StorageServiceTreeWidgetItem20lastModificationDateEv@Base 4:16.04
- _ZNK9PimCommon28StorageServiceTreeWidgetItem4sizeEv@Base 4:16.04
- _ZNK9PimCommon28StorageServiceTreeWidgetItem9storeInfoEv@Base 4:16.04
- _ZNK9PimCommon28StorageServiceTreeWidgetItemltERK15QTreeWidgetItem@Base 4:16.04
- _ZNK9PimCommon29StorageServiceCheckNameDialog10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon29StorageServiceCheckNameDialog7newNameEv@Base 4:16.04
- _ZNK9PimCommon29StorageServiceConfigureDialog10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon29StorageServiceConfigureDialog11listServiceEv@Base 4:16.04
- _ZNK9PimCommon29StorageServiceConfigureWidget10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon29StorageServiceConfigureWidget14downloadFolderEv@Base 4:16.04
- _ZNK9PimCommon29StorageServiceConfigureWidget28storageServiceSettingsWidgetEv@Base 4:16.04
- _ZNK9PimCommon29StorageServiceProgressManager10metaObjectEv@Base 4:16.04
+ _ZNK9PimCommon30AbstractGenericPluginInterface10metaObjectEv@Base 4:17.08.0
+ _ZNK9PimCommon30AbstractGenericPluginInterface12parentWidgetEv@Base 4:17.08.0
+ _ZNK9PimCommon30AbstractGenericPluginInterface6pluginEv@Base 4:17.08.0
  _ZNK9PimCommon30RichTextEditWithAutoCorrection10metaObjectEv@Base 4:16.04
  _ZNK9PimCommon30RichTextEditWithAutoCorrection14autocorrectionEv@Base 4:16.04
- _ZNK9PimCommon31ImapResourceCapabilitiesManager10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon31ImapResourceCapabilitiesManager20hasAnnotationSupportERK7QString@Base 4:16.04
- _ZNK9PimCommon31ManageServerSideSubscriptionJob10metaObjectEv@Base 4:16.04
- _ZNK9PimCommon31StorageServiceProgressIndicator10metaObjectEv@Base 4:16.04
- _ZTIN9PimCommon10AclManagerE@Base 4:16.04
- _ZTIN9PimCommon11AclListViewE@Base 4:16.04
  _ZTIN9PimCommon13GenericPluginE@Base 4:16.04
- _ZTIN9PimCommon14CreateResourceE@Base 4:16.04
  _ZTIN9PimCommon14CustomTreeViewE@Base 4:16.04
+ _ZTIN9PimCommon14NetworkManagerE@Base 4:17.08.0
  _ZTIN9PimCommon15MinimumComboBoxE@Base 4:16.04
- _ZTIN9PimCommon15PluginInterfaceE@Base 4:16.04
  _ZTIN9PimCommon15TemplateManagerE@Base 4:16.04
- _ZTIN9PimCommon16ImapAclAttributeE@Base 4:16.04
+ _ZTIN9PimCommon16LineEditPassword23LineEditPasswordPrivateE@Base 4:17.08.0
+ _ZTIN9PimCommon16LineEditPasswordE@Base 4:17.08.0
  _ZTIN9PimCommon16RenameFileDialogE@Base 4:16.04
  _ZTIN9PimCommon16TranslatorWidgetE@Base 4:16.04
- _ZTIN9PimCommon17BoxStorageServiceE@Base 4:16.04
- _ZTIN9PimCommon17CollectionAclPageE@Base 4:16.04
  _ZTIN9PimCommon17CustomToolsPluginE@Base 4:16.04
  _ZTIN9PimCommon17PimCommonSettingsE@Base 4:16.04
  _ZTIN9PimCommon18SpellCheckLineEditE@Base 4:16.04
  _ZTIN9PimCommon18TemplateListWidgetE@Base 4:16.04
  _ZTIN9PimCommon18TranslatorTextEditE@Base 4:16.04
  _ZTIN9PimCommon19CustomToolsWidgetNgE@Base 4:16.04
- _ZTIN9PimCommon19GenericScriptActionE@Base 4:16.04
- _ZTIN9PimCommon19HubicStorageServiceE@Base 4:16.04
- _ZTIN9PimCommon19StorageServiceMenusE@Base 4:16.04
- _ZTIN9PimCommon20AnnotationEditDialogE@Base 4:16.04
+ _ZTIN9PimCommon19LogActivitiesDialogE@Base 4:17.08.0
+ _ZTIN9PimCommon19LogActivitiesWidgetE@Base 4:17.08.0
  _ZTIN9PimCommon20AutoCorrectionWidgetE@Base 4:16.04
  _ZTIN9PimCommon20GenericPluginManagerE@Base 4:16.04
- _ZTIN9PimCommon20StorageServicePluginE@Base 4:16.04
- _ZTIN9PimCommon20WebDavStorageServiceE@Base 4:16.04
- _ZTIN9PimCommon21DropBoxStorageServiceE@Base 4:16.04
- _ZTIN9PimCommon21GenericScriptsManagerE@Base 4:16.04
+ _ZTIN9PimCommon20LogActivitiesManagerE@Base 4:17.08.0
+ _ZTIN9PimCommon21AbstractGenericPluginE@Base 4:17.08.0
+ _ZTIN9PimCommon21ConfigurePluginDialogE@Base 4:17.08.0
  _ZTIN9PimCommon21KActionMenuChangeCaseE@Base 4:16.04
  _ZTIN9PimCommon21LineEditWithCompleterE@Base 4:16.04
  _ZTIN9PimCommon21PimCommonSettingsBaseE@Base 4:16.04
- _ZTIN9PimCommon21StorageServiceManagerE@Base 4:16.04
  _ZTIN9PimCommon22AutoCorrectionLanguageE@Base 4:16.04
- _ZTIN9PimCommon22GenericPluginInterfaceE@Base 4:16.04
+ _ZTIN9PimCommon22ConfigurePluginsWidgetE@Base 4:17.08.0
  _ZTIN9PimCommon22KPimPrintPreviewDialogE@Base 4:16.04
  _ZTIN9PimCommon22ShareServiceUrlManagerE@Base 4:16.04
  _ZTIN9PimCommon22SieveSyntaxHighlighterE@Base 4:16.04
  _ZTIN9PimCommon22SimpleStringListEditorE@Base 4:16.04
- _ZTIN9PimCommon22StorageServiceAbstractE@Base 4:16.04
- _ZTIN9PimCommon22StorageServiceSettingsE@Base 4:16.04
- _ZTIN9PimCommon23CheckedCollectionWidgetE@Base 4:16.04
  _ZTIN9PimCommon23MigrateApplicationFilesE@Base 4:16.04
- _ZTIN9PimCommon23StorageServiceInterfaceE@Base 4:16.04
- _ZTIN9PimCommon23StorageServiceJobConfigE@Base 4:16.04
- _ZTIN9PimCommon23YouSendItStorageServiceE@Base 4:16.04
  _ZTIN9PimCommon24CustomToolsPluginManagerE@Base 4:16.04
  _ZTIN9PimCommon24CustomToolsViewInterfaceE@Base 4:16.04
  _ZTIN9PimCommon24GenericGrantleeFormatterE@Base 4:16.04
- _ZTIN9PimCommon24StorageServiceTreeWidgetE@Base 4:16.04
+ _ZTIN9PimCommon26ConfigurePluginsListWidget10PluginItemE@Base 4:17.08.0
+ _ZTIN9PimCommon26ConfigurePluginsListWidgetE@Base 4:17.08.0
  _ZTIN9PimCommon26LineEditWithAutoCorrectionE@Base 4:16.04
- _ZTIN9PimCommon26StorageServiceDeleteDialogE@Base 4:16.04
- _ZTIN9PimCommon27SelectMultiCollectionDialogE@Base 4:16.04
- _ZTIN9PimCommon27StorageServicePluginManagerE@Base 4:16.04
- _ZTIN9PimCommon28AttachmentTemporaryFilesDirsE@Base 4:16.04
- _ZTIN9PimCommon28FetchRecursiveCollectionsJobE@Base 4:16.04
- _ZTIN9PimCommon28StorageServiceDownloadDialogE@Base 4:16.04
- _ZTIN9PimCommon28StorageServiceProgressWidgetE@Base 4:16.04
- _ZTIN9PimCommon28StorageServiceSettingsWidgetE@Base 4:16.04
- _ZTIN9PimCommon28StorageServiceTreeWidgetItemE@Base 4:16.04
- _ZTIN9PimCommon29StorageServiceCheckNameDialogE@Base 4:16.04
- _ZTIN9PimCommon29StorageServiceConfigureDialogE@Base 4:16.04
- _ZTIN9PimCommon29StorageServiceConfigureWidgetE@Base 4:16.04
- _ZTIN9PimCommon29StorageServiceProgressManagerE@Base 4:16.04
+ _ZTIN9PimCommon30AbstractGenericPluginInterfaceE@Base 4:17.08.0
  _ZTIN9PimCommon30RichTextEditWithAutoCorrectionE@Base 4:16.04
- _ZTIN9PimCommon31ImapResourceCapabilitiesManagerE@Base 4:16.04
- _ZTIN9PimCommon31ManageServerSideSubscriptionJobE@Base 4:16.04
- _ZTIN9PimCommon31StorageServiceProgressIndicatorE@Base 4:16.04
- _ZTSN9PimCommon10AclManagerE@Base 4:16.04
- _ZTSN9PimCommon11AclListViewE@Base 4:16.04
  _ZTSN9PimCommon13GenericPluginE@Base 4:16.04
- _ZTSN9PimCommon14CreateResourceE@Base 4:16.04
  _ZTSN9PimCommon14CustomTreeViewE@Base 4:16.04
+ _ZTSN9PimCommon14NetworkManagerE@Base 4:17.08.0
  _ZTSN9PimCommon15MinimumComboBoxE@Base 4:16.04
- _ZTSN9PimCommon15PluginInterfaceE@Base 4:16.04
  _ZTSN9PimCommon15TemplateManagerE@Base 4:16.04
- _ZTSN9PimCommon16ImapAclAttributeE@Base 4:16.04
+ _ZTSN9PimCommon16LineEditPassword23LineEditPasswordPrivateE@Base 4:17.08.0
+ _ZTSN9PimCommon16LineEditPasswordE@Base 4:17.08.0
  _ZTSN9PimCommon16RenameFileDialogE@Base 4:16.04
  _ZTSN9PimCommon16TranslatorWidgetE@Base 4:16.04
- _ZTSN9PimCommon17BoxStorageServiceE@Base 4:16.04
- _ZTSN9PimCommon17CollectionAclPageE@Base 4:16.04
  _ZTSN9PimCommon17CustomToolsPluginE@Base 4:16.04
  _ZTSN9PimCommon17PimCommonSettingsE@Base 4:16.04
  _ZTSN9PimCommon18SpellCheckLineEditE@Base 4:16.04
  _ZTSN9PimCommon18TemplateListWidgetE@Base 4:16.04
  _ZTSN9PimCommon18TranslatorTextEditE@Base 4:16.04
  _ZTSN9PimCommon19CustomToolsWidgetNgE@Base 4:16.04
- _ZTSN9PimCommon19GenericScriptActionE@Base 4:16.04
- _ZTSN9PimCommon19HubicStorageServiceE@Base 4:16.04
- _ZTSN9PimCommon19StorageServiceMenusE@Base 4:16.04
- _ZTSN9PimCommon20AnnotationEditDialogE@Base 4:16.04
+ _ZTSN9PimCommon19LogActivitiesDialogE@Base 4:17.08.0
+ _ZTSN9PimCommon19LogActivitiesWidgetE@Base 4:17.08.0
  _ZTSN9PimCommon20AutoCorrectionWidgetE@Base 4:16.04
  _ZTSN9PimCommon20GenericPluginManagerE@Base 4:16.04
- _ZTSN9PimCommon20StorageServicePluginE@Base 4:16.04
- _ZTSN9PimCommon20WebDavStorageServiceE@Base 4:16.04
- _ZTSN9PimCommon21DropBoxStorageServiceE@Base 4:16.04
- _ZTSN9PimCommon21GenericScriptsManagerE@Base 4:16.04
+ _ZTSN9PimCommon20LogActivitiesManagerE@Base 4:17.08.0
+ _ZTSN9PimCommon21AbstractGenericPluginE@Base 4:17.08.0
+ _ZTSN9PimCommon21ConfigurePluginDialogE@Base 4:17.08.0
  _ZTSN9PimCommon21KActionMenuChangeCaseE@Base 4:16.04
  _ZTSN9PimCommon21LineEditWithCompleterE@Base 4:16.04
  _ZTSN9PimCommon21PimCommonSettingsBaseE@Base 4:16.04
- _ZTSN9PimCommon21StorageServiceManagerE@Base 4:16.04
  _ZTSN9PimCommon22AutoCorrectionLanguageE@Base 4:16.04
- _ZTSN9PimCommon22GenericPluginInterfaceE@Base 4:16.04
+ _ZTSN9PimCommon22ConfigurePluginsWidgetE@Base 4:17.08.0
  _ZTSN9PimCommon22KPimPrintPreviewDialogE@Base 4:16.04
  _ZTSN9PimCommon22ShareServiceUrlManagerE@Base 4:16.04
  _ZTSN9PimCommon22SieveSyntaxHighlighterE@Base 4:16.04
  _ZTSN9PimCommon22SimpleStringListEditorE@Base 4:16.04
- _ZTSN9PimCommon22StorageServiceAbstractE@Base 4:16.04
- _ZTSN9PimCommon22StorageServiceSettingsE@Base 4:16.04
- _ZTSN9PimCommon23CheckedCollectionWidgetE@Base 4:16.04
  _ZTSN9PimCommon23MigrateApplicationFilesE@Base 4:16.04
- _ZTSN9PimCommon23StorageServiceInterfaceE@Base 4:16.04
- _ZTSN9PimCommon23StorageServiceJobConfigE@Base 4:16.04
- _ZTSN9PimCommon23YouSendItStorageServiceE@Base 4:16.04
  _ZTSN9PimCommon24CustomToolsPluginManagerE@Base 4:16.04
  _ZTSN9PimCommon24CustomToolsViewInterfaceE@Base 4:16.04
  _ZTSN9PimCommon24GenericGrantleeFormatterE@Base 4:16.04
- _ZTSN9PimCommon24StorageServiceTreeWidgetE@Base 4:16.04
+ _ZTSN9PimCommon26ConfigurePluginsListWidget10PluginItemE@Base 4:17.08.0
+ _ZTSN9PimCommon26ConfigurePluginsListWidgetE@Base 4:17.08.0
  _ZTSN9PimCommon26LineEditWithAutoCorrectionE@Base 4:16.04
- _ZTSN9PimCommon26StorageServiceDeleteDialogE@Base 4:16.04
- _ZTSN9PimCommon27SelectMultiCollectionDialogE@Base 4:16.04
- _ZTSN9PimCommon27StorageServicePluginManagerE@Base 4:16.04
- _ZTSN9PimCommon28AttachmentTemporaryFilesDirsE@Base 4:16.04
- _ZTSN9PimCommon28FetchRecursiveCollectionsJobE@Base 4:16.04
- _ZTSN9PimCommon28StorageServiceDownloadDialogE@Base 4:16.04
- _ZTSN9PimCommon28StorageServiceProgressWidgetE@Base 4:16.04
- _ZTSN9PimCommon28StorageServiceSettingsWidgetE@Base 4:16.04
- _ZTSN9PimCommon28StorageServiceTreeWidgetItemE@Base 4:16.04
- _ZTSN9PimCommon29StorageServiceCheckNameDialogE@Base 4:16.04
- _ZTSN9PimCommon29StorageServiceConfigureDialogE@Base 4:16.04
- _ZTSN9PimCommon29StorageServiceConfigureWidgetE@Base 4:16.04
- _ZTSN9PimCommon29StorageServiceProgressManagerE@Base 4:16.04
+ _ZTSN9PimCommon30AbstractGenericPluginInterfaceE@Base 4:17.08.0
  _ZTSN9PimCommon30RichTextEditWithAutoCorrectionE@Base 4:16.04
- _ZTSN9PimCommon31ImapResourceCapabilitiesManagerE@Base 4:16.04
- _ZTSN9PimCommon31ManageServerSideSubscriptionJobE@Base 4:16.04
- _ZTSN9PimCommon31StorageServiceProgressIndicatorE@Base 4:16.04
- _ZTVN9PimCommon10AclManagerE@Base 4:16.04
- _ZTVN9PimCommon11AclListViewE@Base 4:16.04
  _ZTVN9PimCommon13GenericPluginE@Base 4:16.04
- _ZTVN9PimCommon14CreateResourceE@Base 4:16.04
  _ZTVN9PimCommon14CustomTreeViewE@Base 4:16.04
+ _ZTVN9PimCommon14NetworkManagerE@Base 4:17.08.0
  _ZTVN9PimCommon15MinimumComboBoxE@Base 4:16.04
- _ZTVN9PimCommon15PluginInterfaceE@Base 4:16.04
  _ZTVN9PimCommon15TemplateManagerE@Base 4:16.04
- _ZTVN9PimCommon16ImapAclAttributeE@Base 4:16.04
+ _ZTVN9PimCommon16LineEditPassword23LineEditPasswordPrivateE@Base 4:17.08.0
+ _ZTVN9PimCommon16LineEditPasswordE@Base 4:17.08.0
  _ZTVN9PimCommon16RenameFileDialogE@Base 4:16.04
  _ZTVN9PimCommon16TranslatorWidgetE@Base 4:16.04
- _ZTVN9PimCommon17BoxStorageServiceE@Base 4:16.04
- _ZTVN9PimCommon17CollectionAclPageE@Base 4:16.04
  _ZTVN9PimCommon17CustomToolsPluginE@Base 4:16.04
  _ZTVN9PimCommon17PimCommonSettingsE@Base 4:16.04
  _ZTVN9PimCommon18SpellCheckLineEditE@Base 4:16.04
  _ZTVN9PimCommon18TemplateListWidgetE@Base 4:16.04
  _ZTVN9PimCommon18TranslatorTextEditE@Base 4:16.04
  _ZTVN9PimCommon19CustomToolsWidgetNgE@Base 4:16.04
- _ZTVN9PimCommon19GenericScriptActionE@Base 4:16.04
- _ZTVN9PimCommon19HubicStorageServiceE@Base 4:16.04
- _ZTVN9PimCommon19StorageServiceMenusE@Base 4:16.04
- _ZTVN9PimCommon20AnnotationEditDialogE@Base 4:16.04
+ _ZTVN9PimCommon19LogActivitiesDialogE@Base 4:17.08.0
+ _ZTVN9PimCommon19LogActivitiesWidgetE@Base 4:17.08.0
  _ZTVN9PimCommon20AutoCorrectionWidgetE@Base 4:16.04
  _ZTVN9PimCommon20GenericPluginManagerE@Base 4:16.04
- _ZTVN9PimCommon20StorageServicePluginE@Base 4:16.04
- _ZTVN9PimCommon20WebDavStorageServiceE@Base 4:16.04
- _ZTVN9PimCommon21DropBoxStorageServiceE@Base 4:16.04
- _ZTVN9PimCommon21GenericScriptsManagerE@Base 4:16.04
+ _ZTVN9PimCommon20LogActivitiesManagerE@Base 4:17.08.0
+ _ZTVN9PimCommon21AbstractGenericPluginE@Base 4:17.08.0
+ _ZTVN9PimCommon21ConfigurePluginDialogE@Base 4:17.08.0
  _ZTVN9PimCommon21KActionMenuChangeCaseE@Base 4:16.04
  _ZTVN9PimCommon21LineEditWithCompleterE@Base 4:16.04
  _ZTVN9PimCommon21PimCommonSettingsBaseE@Base 4:16.04
- _ZTVN9PimCommon21StorageServiceManagerE@Base 4:16.04
  _ZTVN9PimCommon22AutoCorrectionLanguageE@Base 4:16.04
- _ZTVN9PimCommon22GenericPluginInterfaceE@Base 4:16.04
+ _ZTVN9PimCommon22ConfigurePluginsWidgetE@Base 4:17.08.0
  _ZTVN9PimCommon22KPimPrintPreviewDialogE@Base 4:16.04
  _ZTVN9PimCommon22ShareServiceUrlManagerE@Base 4:16.04
  _ZTVN9PimCommon22SieveSyntaxHighlighterE@Base 4:16.04
  _ZTVN9PimCommon22SimpleStringListEditorE@Base 4:16.04
- _ZTVN9PimCommon22StorageServiceAbstractE@Base 4:16.04
- _ZTVN9PimCommon22StorageServiceSettingsE@Base 4:16.04
- _ZTVN9PimCommon23CheckedCollectionWidgetE@Base 4:16.04
  _ZTVN9PimCommon23MigrateApplicationFilesE@Base 4:16.04
- _ZTVN9PimCommon23StorageServiceInterfaceE@Base 4:16.04
- _ZTVN9PimCommon23StorageServiceJobConfigE@Base 4:16.04
- _ZTVN9PimCommon23YouSendItStorageServiceE@Base 4:16.04
  _ZTVN9PimCommon24CustomToolsPluginManagerE@Base 4:16.04
  _ZTVN9PimCommon24CustomToolsViewInterfaceE@Base 4:16.04
  _ZTVN9PimCommon24GenericGrantleeFormatterE@Base 4:16.04
- _ZTVN9PimCommon24StorageServiceTreeWidgetE@Base 4:16.04
+ _ZTVN9PimCommon26ConfigurePluginsListWidget10PluginItemE@Base 4:17.08.0
+ _ZTVN9PimCommon26ConfigurePluginsListWidgetE@Base 4:17.08.0
  _ZTVN9PimCommon26LineEditWithAutoCorrectionE@Base 4:16.04
- _ZTVN9PimCommon26StorageServiceDeleteDialogE@Base 4:16.04
- _ZTVN9PimCommon27SelectMultiCollectionDialogE@Base 4:16.04
- _ZTVN9PimCommon27StorageServicePluginManagerE@Base 4:16.04
- _ZTVN9PimCommon28AttachmentTemporaryFilesDirsE@Base 4:16.04
- _ZTVN9PimCommon28FetchRecursiveCollectionsJobE@Base 4:16.04
- _ZTVN9PimCommon28StorageServiceDownloadDialogE@Base 4:16.04
- _ZTVN9PimCommon28StorageServiceProgressWidgetE@Base 4:16.04
- _ZTVN9PimCommon28StorageServiceSettingsWidgetE@Base 4:16.04
- _ZTVN9PimCommon28StorageServiceTreeWidgetItemE@Base 4:16.04
- _ZTVN9PimCommon29StorageServiceCheckNameDialogE@Base 4:16.04
- _ZTVN9PimCommon29StorageServiceConfigureDialogE@Base 4:16.04
- _ZTVN9PimCommon29StorageServiceConfigureWidgetE@Base 4:16.04
- _ZTVN9PimCommon29StorageServiceProgressManagerE@Base 4:16.04
+ _ZTVN9PimCommon30AbstractGenericPluginInterfaceE@Base 4:17.08.0
  _ZTVN9PimCommon30RichTextEditWithAutoCorrectionE@Base 4:16.04
- _ZTVN9PimCommon31ImapResourceCapabilitiesManagerE@Base 4:16.04
- _ZTVN9PimCommon31ManageServerSideSubscriptionJobE@Base 4:16.04
- _ZTVN9PimCommon31StorageServiceProgressIndicatorE@Base 4:16.04
  _ZZZN9PimCommon21PimCommonSettingsBase10setEnabledEbENKUlvE_clEvE15qstring_literal@Base 4:16.04
  _ZZZN9PimCommon21PimCommonSettingsBase14setSuperScriptEbENKUlvE_clEvE15qstring_literal@Base 4:16.04
  _ZZZN9PimCommon21PimCommonSettingsBase15setSingleSpacesEbENKUlvE_clEvE15qstring_literal@Base 4:16.04
@@ -1702,30 +870,23 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZZZN9PimCommon21PimCommonSettingsBase23setFixTwoUppercaseCharsEbENKUlvE_clEvE15qstring_literal@Base 4:16.04
  _ZZZN9PimCommon21PimCommonSettingsBase30setAddNonBreakingSpaceInFrenchEbENKUlvE_clEvE15qstring_literal@Base 4:16.04
  _ZZZN9PimCommon21PimCommonSettingsBase31setUppercaseFirstCharOfSentenceEbENKUlvE_clEvE15qstring_literal@Base 4:16.04
- (c++)"non-virtual thunk to PimCommon::AclListView::~AclListView()@Base" 4:16.04
- (c++)"non-virtual thunk to PimCommon::AnnotationEditDialog::~AnnotationEditDialog()@Base" 4:16.04
  (c++)"non-virtual thunk to PimCommon::AutoCorrectionLanguage::~AutoCorrectionLanguage()@Base" 4:16.04
  (c++)"non-virtual thunk to PimCommon::AutoCorrectionWidget::~AutoCorrectionWidget()@Base" 4:16.04
- (c++)"non-virtual thunk to PimCommon::CheckedCollectionWidget::~CheckedCollectionWidget()@Base" 4:16.04
- (c++)"non-virtual thunk to PimCommon::CollectionAclPage::~CollectionAclPage()@Base" 4:16.04
+ (c++)"non-virtual thunk to PimCommon::ConfigurePluginDialog::~ConfigurePluginDialog()@Base" 4:17.08.0
+ (c++)"non-virtual thunk to PimCommon::ConfigurePluginsListWidget::~ConfigurePluginsListWidget()@Base" 4:17.08.0
+ (c++)"non-virtual thunk to PimCommon::ConfigurePluginsWidget::~ConfigurePluginsWidget()@Base" 4:17.08.0
  (c++)"non-virtual thunk to PimCommon::CustomToolsViewInterface::~CustomToolsViewInterface()@Base" 4:16.04
  (c++)"non-virtual thunk to PimCommon::CustomToolsWidgetNg::~CustomToolsWidgetNg()@Base" 4:16.04
  (c++)"non-virtual thunk to PimCommon::CustomTreeView::~CustomTreeView()@Base" 4:16.04
  (c++)"non-virtual thunk to PimCommon::KPimPrintPreviewDialog::~KPimPrintPreviewDialog()@Base" 4:16.04
+ (c++)"non-virtual thunk to PimCommon::LineEditPassword::~LineEditPassword()@Base" 4:17.08.0
  (c++)"non-virtual thunk to PimCommon::LineEditWithAutoCorrection::~LineEditWithAutoCorrection()@Base" 4:16.04
  (c++)"non-virtual thunk to PimCommon::LineEditWithCompleter::~LineEditWithCompleter()@Base" 4:16.04
+ (c++)"non-virtual thunk to PimCommon::LogActivitiesDialog::~LogActivitiesDialog()@Base" 4:17.08.0
+ (c++)"non-virtual thunk to PimCommon::LogActivitiesWidget::~LogActivitiesWidget()@Base" 4:17.08.0
  (c++)"non-virtual thunk to PimCommon::RenameFileDialog::~RenameFileDialog()@Base" 4:16.04
  (c++)"non-virtual thunk to PimCommon::RichTextEditWithAutoCorrection::~RichTextEditWithAutoCorrection()@Base" 4:16.04
- (c++)"non-virtual thunk to PimCommon::SelectMultiCollectionDialog::~SelectMultiCollectionDialog()@Base" 4:16.04
  (c++)"non-virtual thunk to PimCommon::SimpleStringListEditor::~SimpleStringListEditor()@Base" 4:16.04
  (c++)"non-virtual thunk to PimCommon::SpellCheckLineEdit::~SpellCheckLineEdit()@Base" 4:16.04
- (c++)"non-virtual thunk to PimCommon::StorageServiceCheckNameDialog::~StorageServiceCheckNameDialog()@Base" 4:16.04
- (c++)"non-virtual thunk to PimCommon::StorageServiceConfigureDialog::~StorageServiceConfigureDialog()@Base" 4:16.04
- (c++)"non-virtual thunk to PimCommon::StorageServiceConfigureWidget::~StorageServiceConfigureWidget()@Base" 4:16.04
- (c++)"non-virtual thunk to PimCommon::StorageServiceDeleteDialog::~StorageServiceDeleteDialog()@Base" 4:16.04
- (c++)"non-virtual thunk to PimCommon::StorageServiceDownloadDialog::~StorageServiceDownloadDialog()@Base" 4:16.04
- (c++)"non-virtual thunk to PimCommon::StorageServiceProgressWidget::~StorageServiceProgressWidget()@Base" 4:16.04
- (c++)"non-virtual thunk to PimCommon::StorageServiceSettingsWidget::~StorageServiceSettingsWidget()@Base" 4:16.04
- (c++)"non-virtual thunk to PimCommon::StorageServiceTreeWidget::~StorageServiceTreeWidget()@Base" 4:16.04
  (c++)"non-virtual thunk to PimCommon::TemplateListWidget::~TemplateListWidget()@Base" 4:16.04
  (c++)"non-virtual thunk to PimCommon::TranslatorWidget::~TranslatorWidget()@Base" 4:16.04
