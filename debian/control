@@ -74,14 +74,14 @@ Package: libkf5pimcommon-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5akonadi-dev (>= 4:5.6.0~),
-         libkf5akonadicontact-dev (>= 5.6.0~),
+Depends: libkf5akonadi-dev (>= 4:17.08~),
+         libkf5akonadicontact-dev (>= 17.08~),
          libkf5config-dev (>= 5.35.0~),
-         libkf5contacts-dev (>= 5.6.0~),
-         libkf5imap-dev (>= 5.6.0~),
+         libkf5contacts-dev (>= 17.08~),
+         libkf5imap-dev (>= 17.08~),
          libkf5pimcommon5 (= ${binary:Version}),
          libkf5pimcommonakonadi5 (= ${binary:Version}),
-         libkf5pimtextedit-dev (>= 5.6.0~),
+         libkf5pimtextedit-dev (>= 17.08~),
          libkf5textwidgets-dev (>= 5.19.0~),
          ${misc:Depends},
          ${shlibs:Depends},
