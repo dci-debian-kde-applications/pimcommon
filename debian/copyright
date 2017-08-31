@@ -1,145 +1,219 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: *
-Copyright: 2009-2010, Corentin Chary <corentin.chary@gmail.com>
-           2004, David Faure <faure@kde.org>
-           2001, Marc Mutz <mutz@kde.org>
-           2011-2016, Montel Laurent <montel@kde.org>
-License: GPL-2
-
-Files: src/acl/aclmodifyjob.cpp
-       src/acl/aclmodifyjob.h
-       src/acl/imapaclattribute.cpp
-       src/acl/imapaclattribute.h
-       src/job/fetchrecursivecollectionsjob.cpp
-       src/job/fetchrecursivecollectionsjob.h
-       src/sievehighlighter/sievesyntaxhighlighter.cpp
-       src/sievehighlighter/sievesyntaxhighlighter.h
-       src/storageservice/dialog/storageserviceconfiguredialog.cpp
-       src/storageservice/dialog/storageserviceconfiguredialog.h
-       src/storageservice/dialog/storageservicepropertiesdialog.cpp
-       src/storageservice/dialog/storageservicepropertiesdialog.h
-       src/storageservice/interface/isettingsjob.h
-       src/storageservice/settings/storageservicesettings.cpp
-       src/storageservice/settings/storageservicesettings.h
-       src/storageservice/storageservicejobconfig.cpp
-       src/storageservice/storageservicejobconfig.h
-       src/storageservice/tests/testsettingsjob.cpp
-       src/storageservice/tests/testsettingsjob.h
-       src/storageservice/widgets/storageserviceconfigurewidget.cpp
-       src/storageservice/widgets/storageserviceconfigurewidget.h
-       src/storageservice/widgets/storageserviceprogressindicator.cpp
-       src/storageservice/widgets/storageserviceprogressindicator.h
-       src/storageservice/widgets/storageservicetreewidget.cpp
-       src/storageservice/widgets/storageservicetreewidget.h
-       src/storageservice/widgets/storageservicetreewidgetitem.cpp
-       src/storageservice/widgets/storageservicetreewidgetitem.h
-       src/temporaryfile/attachmenttemporaryfilesdirs.cpp
-       src/temporaryfile/attachmenttemporaryfilesdirs.h
-       src/temporaryfile/autotests/attachmenttemporaryfilesdirstest.cpp
-       src/temporaryfile/autotests/attachmenttemporaryfilesdirstest.h
-Copyright: 2009, Kevin Ottens <ervin@kde.org>
-           2011-2016, Montel Laurent <montel@kde.org>
-License: LGPL-2+
-
-Files: src/acl/aclentrydialog.cpp
-       src/acl/aclentrydialog_p.h
-       src/acl/aclmanager.cpp
-       src/acl/aclmanager.h
-       src/acl/aclutils.cpp
-       src/acl/aclutils_p.h
-       src/util/pimutil.cpp
-       src/util/pimutil.h
-       src/widgets/minimumcombobox.cpp
-       src/widgets/minimumcombobox.h
 Copyright: 2010, Andras Mantia <andras@kdab.com>
+           1951, Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+           1989-1991, Free Software Foundation, Inc
            2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
            2005, Till Adam
            2010, Tobias Koenig <tokoe@kdab.com>
+           2012-2016, This_file_is_part_of_KDE
 License: GPL-2+
 
-Files: src/storageservice/webdav/protocol/webdav_url_info.cpp
-       src/storageservice/webdav/protocol/webdav_url_info.h
-Copyright: 2009-2010, Corentin Chary <corentin.chary@gmail.com>
-           2014-2016, Montel Laurent <montel@kde.org>
-License: GPL-2+_or_LGPL-2+
- This program is free software; you can redistribute it and/or modify it
- under the terms of the GNU General Public License, version 2, as
- published by the Free Software Foundation.
- .
- This program is distributed in the hope that it will be useful, but
- WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- General Public License for more details.
- .
- You should have received a copy of the GNU General Public License along
- with this program; if not, write to the Free Software Foundation, Inc.,
- 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
- .
- ---
- .
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Library General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
- .
- --
- The complete text of the GNU General Public License version 2 can be found in
- `/usr/share/common-licenses/GPL-2', likewise, the complete text of the GNU
- Library General Public License version 2 can be found in
- `/usr/share/common-licenses/LGPL-2'.
+Files: po/ca/*
+       po/ca@valencia/*
+       po/uk/*
+Copyright: 2012-2017, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
 
-Files: src/widgets/annotationdialog.cpp
-       src/widgets/annotationdialog.h
-Copyright: 2014, Laurent Montel <montel@kde.org>
-           2010, Thomas McGuire <mcguire@kde.org>
-License: GPL-2+3+KDEeV
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License as
- published by the Free Software Foundation; either version 2 of
- the License or (at your option) version 3 or any later version
- accepted by the membership of KDE e.V. (or its successor approved
- by the membership of KDE e.V.), which shall act as a proxy
- defined in Section 14 of version 3 of the license.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- The complete text of the GNU General Public License version 2 can be found in
- `/usr/share/common-licenses/GPL-2', likewise, the complete text of the GNU
- General Public License version 3 can be found in
- `/usr/share/common-licenses/GPL-3'.
+Files: src/pimcommon/autocorrection/autocorrection.cpp
+       src/pimcommon/autocorrection/autocorrection.h
+       src/pimcommon/autocorrection/autocorrectionlanguage.cpp
+       src/pimcommon/autocorrection/autocorrectionlanguage.h
+       src/pimcommon/autocorrection/autocorrectionlistwidget.cpp
+       src/pimcommon/autocorrection/autocorrectionlistwidget.h
+       src/pimcommon/autocorrection/autocorrectiontreewidget.cpp
+       src/pimcommon/autocorrection/autocorrectiontreewidget.h
+       src/pimcommon/autocorrection/autocorrectionwidget.cpp
+       src/pimcommon/autocorrection/autocorrectionwidget.h
+       src/pimcommon/autocorrection/autotests/autocorrectiontest.cpp
+       src/pimcommon/autocorrection/autotests/autocorrectiontest.h
+       src/pimcommon/autocorrection/autotests/lineeditwithautocorrectiontest.cpp
+       src/pimcommon/autocorrection/autotests/lineeditwithautocorrectiontest.h
+       src/pimcommon/autocorrection/autotests/richtexteditwithautocorrectiontest.cpp
+       src/pimcommon/autocorrection/autotests/richtexteditwithautocorrectiontest.h
+       src/pimcommon/autocorrection/import/*
+       src/pimcommon/autocorrection/tests/autocorrection_gui.cpp
+       src/pimcommon/autocorrection/tests/autocorrection_gui.h
+       src/pimcommon/autocorrection/tests/richtexteditwithautocorrection_gui.cpp
+       src/pimcommon/autocorrection/widgets/*
+       src/pimcommon/autotests/regularexpressiontests.cpp
+       src/pimcommon/autotests/regularexpressiontests.h
+       src/pimcommon/configureplugins/autotests/configurepluginslistwidgettest.cpp
+       src/pimcommon/configureplugins/autotests/configurepluginslistwidgettest.h
+       src/pimcommon/configureplugins/autotests/configurepluginswidgettest.cpp
+       src/pimcommon/configureplugins/autotests/configurepluginswidgettest.h
+       src/pimcommon/configureplugins/configureplugindialog.cpp
+       src/pimcommon/configureplugins/configureplugindialog.h
+       src/pimcommon/configureplugins/configurepluginslistwidget.cpp
+       src/pimcommon/configureplugins/configurepluginslistwidget.h
+       src/pimcommon/configureplugins/configurepluginswidget.cpp
+       src/pimcommon/configureplugins/configurepluginswidget.h
+       src/pimcommon/customtools/autotests/customtoolswidgetngtest.cpp
+       src/pimcommon/customtools/autotests/customtoolswidgetngtest.h
+       src/pimcommon/customtools/customtoolsplugin.cpp
+       src/pimcommon/customtools/customtoolsplugin.h
+       src/pimcommon/customtools/customtoolspluginmanager.cpp
+       src/pimcommon/customtools/customtoolspluginmanager.h
+       src/pimcommon/customtools/customtoolsviewinterface.cpp
+       src/pimcommon/customtools/customtoolsviewinterface.h
+       src/pimcommon/customtools/customtoolswidgetng.cpp
+       src/pimcommon/customtools/customtoolswidgetng.h
+       src/pimcommon/genericgrantlee/*
+       src/pimcommon/genericplugins/abstractgenericplugin.cpp
+       src/pimcommon/genericplugins/abstractgenericplugin.h
+       src/pimcommon/genericplugins/abstractgenericplugininterface.cpp
+       src/pimcommon/genericplugins/abstractgenericplugininterface.h
+       src/pimcommon/genericplugins/autotests/actiontypetest.cpp
+       src/pimcommon/genericplugins/autotests/actiontypetest.h
+       src/pimcommon/genericplugins/autotests/genericpluginmanagertest.cpp
+       src/pimcommon/genericplugins/autotests/genericpluginmanagertest.h
+       src/pimcommon/genericplugins/autotests/pluginutiltest.cpp
+       src/pimcommon/genericplugins/autotests/pluginutiltest.h
+       src/pimcommon/genericplugins/genericplugin.cpp
+       src/pimcommon/genericplugins/genericplugin.h
+       src/pimcommon/genericplugins/genericpluginmanager.cpp
+       src/pimcommon/genericplugins/genericpluginmanager.h
+       src/pimcommon/genericplugins/pluginutil.cpp
+       src/pimcommon/genericplugins/pluginutil.h
+       src/pimcommon/logactivities/autotests/logactivitiesdialogtest.cpp
+       src/pimcommon/logactivities/autotests/logactivitiesdialogtest.h
+       src/pimcommon/logactivities/autotests/logactivitiesmanagertest.cpp
+       src/pimcommon/logactivities/autotests/logactivitiesmanagertest.h
+       src/pimcommon/logactivities/autotests/logactivitieswidgettest.cpp
+       src/pimcommon/logactivities/autotests/logactivitieswidgettest.h
+       src/pimcommon/logactivities/logactivitiesdialog.cpp
+       src/pimcommon/logactivities/logactivitiesdialog.h
+       src/pimcommon/logactivities/logactivitiesmanager.cpp
+       src/pimcommon/logactivities/logactivitiesmanager.h
+       src/pimcommon/logactivities/logactivitieswidget.cpp
+       src/pimcommon/logactivities/logactivitieswidget.h
+       src/pimcommon/migration/autotests/migrateapplicationfilestest.cpp
+       src/pimcommon/migration/autotests/migrateapplicationfilestest.h
+       src/pimcommon/migration/autotests/migratefileinfotest.cpp
+       src/pimcommon/migration/autotests/migratefileinfotest.h
+       src/pimcommon/migration/migrateapplicationfiles.cpp
+       src/pimcommon/migration/migrateapplicationfiles.h
+       src/pimcommon/migration/migratefileinfo.cpp
+       src/pimcommon/migration/migratefileinfo.h
+       src/pimcommon/network/*
+       src/pimcommon/settings/pimcommonsettings.cpp
+       src/pimcommon/settings/pimcommonsettings.h
+       src/pimcommon/shareserviceurl/autotests/shareserviceurlmanagertest.cpp
+       src/pimcommon/shareserviceurl/autotests/shareserviceurlmanagertest.h
+       src/pimcommon/shareserviceurl/shareserviceurlmanager.cpp
+       src/pimcommon/shareserviceurl/shareserviceurlmanager.h
+       src/pimcommon/sievehighlighter/*
+       src/pimcommon/templatewidgets/*
+       src/pimcommon/translator/autotests/translatortest.cpp
+       src/pimcommon/translator/autotests/translatortest.h
+       src/pimcommon/translator/googletranslator.cpp
+       src/pimcommon/translator/googletranslator.h
+       src/pimcommon/translator/tests/translator_gui.cpp
+       src/pimcommon/translator/translatordebugdialog.cpp
+       src/pimcommon/translator/translatordebugdialog.h
+       src/pimcommon/translator/translatorutil.cpp
+       src/pimcommon/translator/translatorutil.h
+       src/pimcommon/translator/translatorwidget.cpp
+       src/pimcommon/translator/translatorwidget.h
+       src/pimcommon/util/autotests/networkutiltest.cpp
+       src/pimcommon/util/autotests/networkutiltest.h
+       src/pimcommon/util/networkutil.cpp
+       src/pimcommon/util/networkutil.h
+       src/pimcommon/widgets/autotests/kactionmenuchangecasetest.cpp
+       src/pimcommon/widgets/autotests/kactionmenuchangecasetest.h
+       src/pimcommon/widgets/autotests/lineeditpasswordtest.cpp
+       src/pimcommon/widgets/autotests/lineeditpasswordtest.h
+       src/pimcommon/widgets/configureimmutablewidgetutils.cpp
+       src/pimcommon/widgets/configureimmutablewidgetutils.h
+       src/pimcommon/widgets/customtreeview.cpp
+       src/pimcommon/widgets/customtreeview.h
+       src/pimcommon/widgets/kactionmenuchangecase.cpp
+       src/pimcommon/widgets/kactionmenuchangecase.h
+       src/pimcommon/widgets/kpimprintpreviewdialog.cpp
+       src/pimcommon/widgets/kpimprintpreviewdialog.h
+       src/pimcommon/widgets/lineeditpassword.cpp
+       src/pimcommon/widgets/lineeditpassword.h
+       src/pimcommon/widgets/lineeditwithcompleter.cpp
+       src/pimcommon/widgets/lineeditwithcompleter.h
+       src/pimcommon/widgets/renamefiledialog.cpp
+       src/pimcommon/widgets/renamefiledialog.h
+       src/pimcommon/widgets/simplestringlisteditor.cpp
+       src/pimcommon/widgets/simplestringlisteditor.h
+       src/pimcommon/widgets/spellchecklineedit.cpp
+       src/pimcommon/widgets/spellchecklineedit.h
+       src/pimcommon/widgets/tests/customtoolswidgetng_gui.cpp
+       src/pimcommon/widgets/tests/customtoolswidgetng_gui.h
+       src/pimcommon/widgets/tests/testpasswordlineedit.cpp
+       src/pimcommon/widgets/tests/testspellchecklineedit.cpp
+       src/pimcommonakonadi/acl/acllistview.cpp
+       src/pimcommonakonadi/acl/acllistview.h
+       src/pimcommonakonadi/acl/autotests/collectionaclwidgettest.cpp
+       src/pimcommonakonadi/acl/autotests/collectionaclwidgettest.h
+       src/pimcommonakonadi/acl/autotests/imapaclattributetest.cpp
+       src/pimcommonakonadi/acl/autotests/imapaclattributetest.h
+       src/pimcommonakonadi/acl/collectionaclpage.cpp
+       src/pimcommonakonadi/acl/collectionaclpage.h
+       src/pimcommonakonadi/acl/collectionaclwidget.cpp
+       src/pimcommonakonadi/acl/collectionaclwidget.h
+       src/pimcommonakonadi/collectionpage/autotests/collectionannotationsattributetest.cpp
+       src/pimcommonakonadi/collectionpage/autotests/collectionannotationsattributetest.h
+       src/pimcommonakonadi/folderdialog/checkedcollectionwidget.cpp
+       src/pimcommonakonadi/folderdialog/checkedcollectionwidget.h
+       src/pimcommonakonadi/folderdialog/selectmulticollectiondialog.cpp
+       src/pimcommonakonadi/folderdialog/selectmulticollectiondialog.h
+       src/pimcommonakonadi/folderdialog/selectmulticollectionwidget.cpp
+       src/pimcommonakonadi/folderdialog/selectmulticollectionwidget.h
+       src/pimcommonakonadi/folderdialog/tests/selectmultiselectiondialog_gui.cpp
+       src/pimcommonakonadi/genericplugins/*
+       src/pimcommonakonadi/manageserversidesubscription/*
+       src/pimcommonakonadi/util/createresource.cpp
+       src/pimcommonakonadi/util/createresource.h
+       src/pimcommonakonadi/util/imapresourcecapabilitiesmanager.cpp
+       src/pimcommonakonadi/util/imapresourcecapabilitiesmanager.h
+Copyright: 2004, David Faure <faure@kde.org>
+           2001, Marc Mutz <mutz@kde.org>
+           2011-2017, Montel Laurent <montel@kde.org>
+License: GPL-2
 
-Files: src/util/metatype.h
+Files: src/pimcommon/logactivities/tests/logactivitiesmainwidget.cpp
+       src/pimcommon/logactivities/tests/logactivitiesmainwidget.h
+       src/pimcommon/logactivities/tests/main.cpp
+       src/pimcommon/pimcommon_private_export.h
+       src/pimcommon/sievehighlighter/sievesyntaxhighlighter.cpp
+       src/pimcommon/sievehighlighter/sievesyntaxhighlighter.h
+       src/pimcommonakonadi/acl/aclmodifyjob.cpp
+       src/pimcommonakonadi/acl/aclmodifyjob.h
+       src/pimcommonakonadi/acl/imapaclattribute.cpp
+       src/pimcommonakonadi/acl/imapaclattribute.h
+       src/pimcommonakonadi/collectionpage/attributeregistrar.cpp
+       src/pimcommonakonadi/collectionpage/attributes/*
+       src/pimcommonakonadi/collectionpage/autotests/contenttypewidgettest.cpp
+       src/pimcommonakonadi/collectionpage/autotests/contenttypewidgettest.h
+       src/pimcommonakonadi/collectionpage/autotests/incidencesforwidgettest.cpp
+       src/pimcommonakonadi/collectionpage/autotests/incidencesforwidgettest.h
+       src/pimcommonakonadi/collectionpage/collectiontypeutil.cpp
+       src/pimcommonakonadi/collectionpage/collectiontypeutil.h
+       src/pimcommonakonadi/collectionpage/contenttypewidget.cpp
+       src/pimcommonakonadi/collectionpage/contenttypewidget.h
+       src/pimcommonakonadi/collectionpage/incidencesforwidget.cpp
+       src/pimcommonakonadi/collectionpage/incidencesforwidget.h
+       src/pimcommonakonadi/job/*
+       src/pimcommonakonadi/pimcommonakonadi_private_export.h
+Copyright: 2009, Constantin Berzan <exit3219@gmail.com>
+           2009, Kevin Ottens <ervin@kde.org>
+           2011-2017, Laurent Montel <montel@kde.org>
+           2008, Omat Holding B.V <info@omat.nl>
+License: LGPL-2+
+
+Files: src/pimcommon/util/metatype.h
 Copyright: 2009, Thomas McGuire <mcguire@kde.org>
 License: LGPL-2+3+KDEeV
- This library is free software; you can redistribute it and/or modify
- it under the terms of the GNU Library General Public License as published
- by the Free Software Foundation; either version 2 of the License or
- ( at your option ) version 3 or, at the discretion of KDE e.V.
- ( which shall act as a proxy as in section 14 of the GPLv3 ), any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- The complete text of the GNU Library General Public License version 2 can be
- found in `/usr/share/common-licenses/LGPL-2', likewise, the complete text of
- the GNU Lesser General Public License version 3 can be found in
- `/usr/share/common-licenses/LGPL-3'.
+
+Files: src/pimcommonakonadi/widgets/*
+Copyright: 2014, Laurent Montel <montel@kde.org>
+           2010, Thomas McGuire <mcguire@kde.org>
+ricense: GPL-2+3+KDEeV
 
 Files: debian/*
 Copyright: 2016, Maximiliano Curia <maxy@debian.org>
@@ -172,6 +246,25 @@ License: GPL-2+
  The complete text of the GNU General Public License version 2
  can be found in `/usr/share/common-licenses/GPL-2'.
 
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2', likewise, the complete
+ text of the GNU General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
+
 License: LGPL-2+
  This library is free software; you can redistribute it and/or modify it
  under the terms of the GNU Library General Public License as published by
@@ -185,3 +278,29 @@ License: LGPL-2+
  .
  The complete text of the GNU Library General Public License version 2
  can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1', likewise, the complete
+ text of the GNU Lesser General Public License version 3 can be found in
+ `/usr/share/common-licenses/LGPL-3'.
+
+License: LGPL-2+3+KDEeV
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as published
+ by the Free Software Foundation; either version 2 of the License or
+ ( at your option ) version 3 or, at the discretion of KDE e.V.
+ ( which shall act as a proxy as in section 14 of the GPLv3 ), any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2', likewise, the complete
+ text of the GNU Lesser General Public License version 3 can be found in
+ `/usr/share/common-licenses/LGPL-3'.
