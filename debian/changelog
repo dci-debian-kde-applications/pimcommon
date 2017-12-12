@@ -1,3 +1,8 @@
+libkf5pimcommon (4:17.08.0-2) UNRELEASED; urgency=medium
+
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 06:14:42 +0100
+
 libkf5pimcommon (4:17.08.0-1) experimental; urgency=medium
 
   * New upstream release (17.08.0)
