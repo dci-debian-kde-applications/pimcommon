@@ -39,13 +39,10 @@ Build-Depends: cmake (>= 3.0~),
                libkf5widgetsaddons-dev (>= 5.35.0~),
                libkf5windowsystem-dev (>= 5.35.0~),
                libkf5xmlgui-dev (>= 5.35.0~),
-               libqt5webchannel5-dev | libqt5webchannel-dev,
-               libqt5webkit5-dev (>= 5.4.0~),
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.7.0~),
                qtscript5-dev (>= 5.4.0~),
                qttools5-dev (>= 5.4.0~),
-               qtwebengine5-dev | libqt5webengine5-dev,
                xsltproc,
 Standards-Version: 4.1.2
 Homepage: http://pim.kde.org/
