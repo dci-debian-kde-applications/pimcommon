@@ -5,6 +5,8 @@ libkf5pimcommon (4:17.08.0-2) UNRELEASED; urgency=medium
   * Simplify watch file, and switch it to https.
   * Remove unused build dependencies: libqt5webchannel5-dev,
     libqt5webkit5-dev, and qtwebengine5-dev.
+  * Remove the kde-l10n-ast, and kde-l10n-eo breaks/replaces from
+    libkf5pimcommon-data, since they are already included in ${kde-l10n:all}
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 06:14:42 +0100
 
