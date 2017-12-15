@@ -1,3 +1,10 @@
+libkf5pimcommon (4:17.08.3-1) UNRELEASED; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (17.08.3).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Dec 2017 18:53:05 +0100
+
 libkf5pimcommon (4:17.08.0-2) experimental; urgency=medium
 
   * Team upload.
