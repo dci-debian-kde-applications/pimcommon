@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:17.08.0 amd64
+# SymbolsHelper-Confirmed: 4:17.08.0 alpha amd64 i386 mips mipsel ppc64 s390x
 libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:16.04
  _ZN9PimCommon10PluginUtil17isPluginActivatedERK11QStringListS3_bRK7QString@Base 4:17.08.0
@@ -619,7 +619,7 @@ libKF5PimCommon.so.5 libkf5pimcommon5 #MINVER#, libkf5pimcommon-plugins
  _ZN9PimCommon4Util17generateEmailListERK11QStringList@Base 4:17.08.0
  _ZN9PimCommon4Util27createImapSettingsInterfaceERK7QString@Base 4:16.04
  (optional=templinst|arch=)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:16.04
- (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4:16.04
+ (optional=templinst|arch=amd64)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4:16.04
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEE5QListIT_EPKcRKS3_@Base 4:16.04
  _ZNK9PimCommon11NetworkUtil12lowBandwidthEv@Base 4:16.04
  _ZNK9PimCommon13GenericPlugin10metaObjectEv@Base 4:16.04
