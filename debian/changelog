@@ -1,4 +1,6 @@
-libkf5pimcommon (4:17.08.3-1) UNRELEASED; urgency=medium
+libkf5pimcommon (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
 
   [ Sandro Knauß ]
   * New upstream release (17.08.3).
@@ -7,7 +9,7 @@ libkf5pimcommon (4:17.08.3-1) UNRELEASED; urgency=medium
   * Update symbols from buildds for 4:17.08.0
   * Set l10npkgs_firstversion_ok to 4:16.04.3-9~
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Dec 2017 18:53:05 +0100
+ -- Sandro Knauß <hefee@debian.org>  Thu, 21 Dec 2017 18:01:00 +0100
 
 libkf5pimcommon (4:17.08.0-2) experimental; urgency=medium
 
